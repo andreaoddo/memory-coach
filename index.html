@@ -61,6 +61,7 @@
             <button id="toggleBtn" onclick="toggleFullLine()" style="background:#3498db;">Mostra/Nascondi (H)</button>
         </div>
         <button onclick="resetSetup()" style="background:#7f8c8d; margin-top:10px;">Cambia Scena/Personaggio</button>
+        <button onclick="ttsEnabled = !ttsEnabled; this.textContent = ttsEnabled ? '🔊 Voce ON' : '🔇 Voce OFF'">🔊 Voce ON</button>
     </div>
 </div>
 
@@ -71,6 +72,7 @@
     let myChar = "";
     let revealedWords = 0;
     let isLineVisible = false;
+    let ttsEnabled = true;
 
     // --- Inizializzazione ---
     window.onload = () => {
@@ -126,27 +128,34 @@
     }
 
     function renderLine() {
-        const line = currentLines[currentIndex];
-        const speakerEl = document.getElementById('speaker');
-        const contentEl = document.getElementById('content');
-        const suggestBtn = document.getElementById('suggestBtn');
-        const toggleBtn = document.getElementById('toggleBtn');
-        
-        speakerEl.textContent = line.personaggi.join(", ");
-        revealedWords = 0; 
-        isLineVisible = false;
-        toggleBtn.textContent = "Mostra Battuta (H)";
+    const line = currentLines[currentIndex];
+    const speakerEl = document.getElementById('speaker');
+    const contentEl = document.getElementById('content');
+    const suggestBtn = document.getElementById('suggestBtn');
+    const toggleBtn = document.getElementById('toggleBtn');
+    
+    speakerEl.textContent = line.personaggi.join(", ");
+    revealedWords = 0; 
+    isLineVisible = false;
+    toggleBtn.textContent = "Mostra Battuta (H)";
 
-        if (myChar === "LETTURA_LIBERA" || !line.personaggi.includes(myChar)) {
-            contentEl.textContent = `"${line.testo}"`;
-            suggestBtn.style.display = 'none';
-            toggleBtn.style.display = 'none';
-        } else {
-            contentEl.innerHTML = `<span class="cue">TOCCA A TE!</span>`;
-            suggestBtn.style.display = 'block';
-            toggleBtn.style.display = 'block';
-        }
+    // Se NON è il tuo turno (o è lettura libera), l'app parla
+    if (myChar === "LETTURA_LIBERA" || !line.personaggi.includes(myChar)) {
+        contentEl.textContent = `"${line.testo}"`;
+        suggestBtn.style.display = 'none';
+        toggleBtn.style.display = 'none';
+        
+        // --- AGGIUNTA: L'app legge la battuta ---
+        if (ttsEnabled) speak(line.testo);
+    } 
+    else {
+        // Se è il tuo turno, l'app sta zitta e aspetta te
+        window.speechSynthesis.cancel(); // Silenzio per sicurezza
+        contentEl.innerHTML = `<span class="cue">TOCCA A TE!</span>`;
+        suggestBtn.style.display = 'block';
+        toggleBtn.style.display = 'block';
     }
+}
 
     function nextLine() {
         if (currentIndex < currentLines.length - 1) {
@@ -203,6 +212,18 @@
         if (e.key.toLowerCase() === "s") suggestWord();
         if (e.key.toLowerCase() === "h") toggleFullLine();
     });
+    
+    function speak(text) {
+    // Interrompe eventuali letture in corso (evita sovrapposizioni)
+    window.speechSynthesis.cancel();
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'it-IT'; // Imposta la lingua in italiano
+    utterance.rate = 1.25;     // Velocità (0.1 a 10)
+    utterance.pitch = 0.5;    // Tonalità (0 a 2)
+
+    window.speechSynthesis.speak(utterance);
+}
 </script>
 
 </body>
