@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teatro Memory Coach</title>
+    <!-- Assicurati che script.js esista e contenga: const scriptData = {...} -->
+    <script src="script.js"></script>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #e67e22;
+            --light: #ecf0f1;
+            --danger: #c0392b;
+        }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--light); color: var(--primary); display: flex; flex-direction: column; align-items: center; padding: 20px; }
+        .container { max-width: 600px; width: 100%; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: var(--primary); }
+        .section { margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #ddd; }
+        label { display: block; font-weight: bold; margin-bottom: 5px; }
+        select, button { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 1rem; }
+        button { cursor: pointer; background: var(--primary); color: white; border: none; }
+        .btn-group { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        #display-area { min-height: 150px; background: #f9f9f9; border: 2px dashed #bdc3c7; border-radius: 8px; padding: 20px; text-align: center; margin-top: 10px; }
+        .speaker-name { font-weight: bold; color: var(--accent); text-transform: uppercase; margin-bottom: 10px; }
+        .line-text { font-size: 1.2rem; line-height: 1.5; }
+        .cue { color: var(--danger); font-weight: bold; animation: blink 1.5s infinite; }
+        @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Aggiunto ID per il titolo -->
+    <h1 id="script-title">🎭 Memory Coach</h1>
+
+    <div id="setup-controls">
+        <div class="section">
+            <label>Seleziona Atto e Scena</label>
+            <select id="sceneSelect"></select>
+            
+            <label>Il Tuo Personaggio</label>
+            <select id="charSelect"></select>
+            
+            <button onclick="startStudy()" style="background:#27ae60;">Inizia Studio</button>
+        </div>
+    </div>
+
+    <div id="player" style="display:none;">
+        <div id="display-area">
+            <div id="speaker" class="speaker-name"></div>
+            <div id="content" class="line-text"></div>
+        </div>
+        
+        <div class="btn-group" style="margin-top:20px;">
+            <button onclick="prevLine()">⬅ Indietro</button>
+            <button onclick="nextLine()">Avanti ➡</button>
+        </div>
+        <div class="btn-group" style="margin-top:10px;">
+            <button id="suggestBtn" onclick="suggestWord()" style="background:var(--accent);">Suggerisci (S)</button>
+            <button id="toggleBtn" onclick="toggleFullLine()" style="background:#3498db;">Mostra/Nascondi (H)</button>
+        </div>
+        <button onclick="resetSetup()" style="background:#7f8c8d; margin-top:10px;">Cambia Scena/Personaggio</button>
+    </div>
+</div>
+
+<script>
+    // NON reinizializzare scriptData a null se lo carichi da script.js!
+    let currentLines = [];
+    let currentIndex = 0;
+    let myChar = "";
+    let revealedWords = 0;
+    let isLineVisible = false;
+
+    // --- Inizializzazione ---
+    window.onload = () => {
+        // Verifichiamo che scriptData sia stato caricato dal file esterno
+        if (typeof scriptData !== 'undefined') {
+            document.getElementById('script-title').textContent = "🎭 " + scriptData.titolo;
+            populateSetup();
+        } else {
+            alert("Errore: script.js non trovato o non configurato correttamente!");
+        }
+    };
+
+    function populateSetup() {
+        const sceneSelect = document.getElementById('sceneSelect');
+        sceneSelect.innerHTML = '';
+        
+        scriptData.atti.forEach((atto, aIdx) => {
+            atto.scene.forEach((scena, sIdx) => {
+                const opt = document.createElement('option');
+                opt.value = `${aIdx}-${sIdx}`;
+                opt.textContent = `${atto.titolo} - ${scena.titolo}`;
+                sceneSelect.appendChild(opt);
+            });
+        });
+
+        sceneSelect.addEventListener('change', updateCharacterList);
+        updateCharacterList();
+    }
+
+    function updateCharacterList() {
+        const sceneSelect = document.getElementById('sceneSelect');
+        const charSelect = document.getElementById('charSelect');
+        const [aIdx, sIdx] = sceneSelect.value.split('-');
+        const personaggi = scriptData.atti[aIdx].scene[sIdx].personaggi;
+
+        charSelect.innerHTML = '<option value="LETTURA_LIBERA">📖 Lettura Libera</option>';
+        personaggi.forEach(p => {
+            const opt = document.createElement('option');
+            opt.value = p; opt.textContent = p;
+            charSelect.appendChild(opt);
+        });
+    }
+
+    function startStudy() {
+        const [aIdx, sIdx] = document.getElementById('sceneSelect').value.split('-');
+        myChar = document.getElementById('charSelect').value;
+        currentLines = scriptData.atti[aIdx].scene[sIdx].battute;
+        currentIndex = 0;
+        
+        document.getElementById('setup-controls').style.display = 'none';
+        document.getElementById('player').style.display = 'block';
+        renderLine();
+    }
+
+    function renderLine() {
+        const line = currentLines[currentIndex];
+        const speakerEl = document.getElementById('speaker');
+        const contentEl = document.getElementById('content');
+        const suggestBtn = document.getElementById('suggestBtn');
+        const toggleBtn = document.getElementById('toggleBtn');
+        
+        speakerEl.textContent = line.personaggi.join(", ");
+        revealedWords = 0; 
+        isLineVisible = false;
+        toggleBtn.textContent = "Mostra Battuta (H)";
+
+        if (myChar === "LETTURA_LIBERA" || !line.personaggi.includes(myChar)) {
+            contentEl.textContent = `"${line.testo}"`;
+            suggestBtn.style.display = 'none';
+            toggleBtn.style.display = 'none';
+        } else {
+            contentEl.innerHTML = `<span class="cue">TOCCA A TE!</span>`;
+            suggestBtn.style.display = 'block';
+            toggleBtn.style.display = 'block';
+        }
+    }
+
+    function nextLine() {
+        if (currentIndex < currentLines.length - 1) {
+            currentIndex++;
+            renderLine();
+        }
+    }
+
+    function prevLine() {
+        if (currentIndex > 0) {
+            currentIndex--;
+            renderLine();
+        }
+    }
+
+    function toggleFullLine() {
+        const contentEl = document.getElementById('content');
+        const toggleBtn = document.getElementById('toggleBtn');
+        const fullText = currentLines[currentIndex].testo;
+
+        if (!isLineVisible) {
+            contentEl.innerHTML = `<span style="color:#2c3e50">${fullText}</span>`;
+            toggleBtn.textContent = "Nascondi Battuta (H)";
+            isLineVisible = true;
+        } else {
+            contentEl.innerHTML = `<span class="cue">TOCCA A TE!</span>`;
+            toggleBtn.textContent = "Mostra Battuta (H)";
+            isLineVisible = false;
+            revealedWords = 0;
+        }
+    }
+
+    function suggestWord() {
+        const fullText = currentLines[currentIndex].testo;
+        const words = fullText.split(" ");
+        if (revealedWords < words.length) {
+            revealedWords++;
+            const partialText = words.slice(0, revealedWords).join(" ");
+            document.getElementById('content').innerHTML = `<span style="color:#2ecc71">${partialText}</span>${revealedWords < words.length ? '...' : ''}`;
+        }
+    }
+
+    function resetSetup() {
+        document.getElementById('player').style.display = 'none';
+        document.getElementById('setup-controls').style.display = 'block';
+    }
+
+    // --- Scorciatoie da Tastiera ---
+    document.addEventListener('keydown', (e) => {
+        if (document.getElementById('player').style.display === 'none') return;
+        
+        if (e.key === "ArrowRight") nextLine();
+        if (e.key === "ArrowLeft") prevLine();
+        if (e.key.toLowerCase() === "s") suggestWord();
+        if (e.key.toLowerCase() === "h") toggleFullLine();
+    });
+</script>
+
+</body>
+</html>
