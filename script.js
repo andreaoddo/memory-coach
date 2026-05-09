@@ -1586,8 +1586,8 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "FRECCIA",
-                        "CLEANTE"
+                        "CLEANTE",
+                        "FRECCIA"
                     ]
                 },
                 {
@@ -1710,8 +1710,8 @@ const scriptData = {
                     ],
                     "personaggi": [
                         "ARPAGONE",
-                        "CLEANTE",
                         "MASTRO SIMONE",
+                        "CLEANTE",
                         "FRECCIA"
                     ]
                 },
@@ -1787,8 +1787,8 @@ const scriptData = {
                     ],
                     "personaggi": [
                         "ARPAGONE",
-                        "FROSINA",
-                        "FRECCIA"
+                        "FRECCIA",
+                        "FROSINA"
                     ]
                 },
                 {
@@ -2477,11 +2477,11 @@ const scriptData = {
                     ],
                     "personaggi": [
                         "CLAUDIA",
-                        "MASTRO GIACOMO",
-                        "CLEANTE",
+                        "VALERIO",
                         "ELISA",
                         "ARPAGONE",
-                        "VALERIO"
+                        "MASTRO GIACOMO",
+                        "CLEANTE"
                     ]
                 },
                 {
@@ -2597,8 +2597,8 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "MASTRO GIACOMO",
-                        "VALERIO"
+                        "VALERIO",
+                        "MASTRO GIACOMO"
                     ]
                 },
                 {
@@ -2690,8 +2690,8 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "MARIANNA",
                         "MASTRO GIACOMO",
+                        "MARIANNA",
                         "FROSINA"
                     ]
                 },
@@ -2802,10 +2802,10 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "MARIANNA",
                         "ARPAGONE",
-                        "FROSINA",
-                        "ELISA"
+                        "ELISA",
+                        "MARIANNA",
+                        "FROSINA"
                     ]
                 },
                 {
@@ -3131,12 +3131,12 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "FROSINA",
                         "CLAUDIA",
+                        "VALERIO",
                         "MARIANNA",
-                        "CLEANTE",
                         "ARPAGONE",
-                        "VALERIO"
+                        "FROSINA",
+                        "CLEANTE"
                     ]
                 },
                 {
@@ -3475,8 +3475,8 @@ const scriptData = {
                     ],
                     "personaggi": [
                         "ARPAGONE",
-                        "FRECCIA",
-                        "CLEANTE"
+                        "CLEANTE",
+                        "FRECCIA"
                     ]
                 }
             ],
@@ -3873,9 +3873,9 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "MASTRO GIACOMO",
                         "ARPAGONE",
-                        "COMMISSARIO"
+                        "COMMISSARIO",
+                        "MASTRO GIACOMO"
                     ]
                 },
                 {
@@ -4153,10 +4153,10 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "MASTRO GIACOMO",
                         "ARPAGONE",
+                        "VALERIO",
                         "COMMISSARIO",
-                        "VALERIO"
+                        "MASTRO GIACOMO"
                     ]
                 },
                 {
@@ -4263,39 +4263,39 @@ const scriptData = {
                         },
                         {
                             "personaggi": [
-                                "LUCA"
+                                "VALERIO"
                             ],
                             "testo": "Il tuo piano \u2026 il piano segreto \u2026 che tutte le serve hanno intorno al quarto o quinto atto ..."
                         },
                         {
                             "personaggi": [
-                                "ANDREA"
+                                "ARPAGONE"
                             ],
                             "testo": "\u2026 in tutte le commedie di Moliere \u2026"
                         },
                         {
                             "personaggi": [
-                                "ALICE"
+                                "FROSINA"
                             ],
                             "testo": "Mi fate torto, signor Valerio, dandomi della serva."
                         },
                         {
                             "personaggi": [
-                                "ELEONORA"
+                                "ELISA"
                             ],
                             "testo": "Frosina, astuta come Colombina, lo so che hai architettato qualcosa."
                         },
                         {
                             "personaggi": [
-                                "OMAR"
+                                "COMMISSARIO"
                             ],
                             "testo": "Signor Intendente, il signor Arpagone sostiene che voi siate un impostore traditore \u2026 ma chi siete veramente ?"
                         },
                         {
                             "personaggi": [
-                                "ANDREA"
+                                "ARPAGONE"
                             ],
-                            "testo": "/ARPAGONE Ottima domanda, Oma \u2026 ehm \u2026 commissario."
+                            "testo": "Ottima domanda, Oma \u2026 ehm \u2026 commissario."
                         },
                         {
                             "personaggi": [
@@ -4329,19 +4329,29 @@ const scriptData = {
                         },
                         {
                             "personaggi": [
-                                "TUTTI"
+                                "ANSELMO",
+                                "VALERIO",
+                                "ELEONORA",
+                                "MARIANNA",
+                                "ELISA",
+                                "ARPAGONE",
+                                "MASTRO GIACOMO",
+                                "ALICE",
+                                "FROSINA",
+                                "TUTTI DA DIETRO LE QUINTE",
+                                "COMMISSARIO"
                             ],
                             "testo": "Cosaaa ???"
                         },
                         {
                             "personaggi": [
-                                "LUCA"
+                                "VALERIO"
                             ],
                             "testo": "Alla buon ora \u2026"
                         },
                         {
                             "personaggi": [
-                                "OMAR"
+                                "COMMISSARIO"
                             ],
                             "testo": "Oooooh !"
                         },
@@ -4353,7 +4363,7 @@ const scriptData = {
                         },
                         {
                             "personaggi": [
-                                "ANDREA"
+                                "ARPAGONE"
                             ],
                             "testo": "Meglio di no \u2026"
                         },
@@ -4389,7 +4399,17 @@ const scriptData = {
                         },
                         {
                             "personaggi": [
-                                "TUTTI"
+                                "ANSELMO",
+                                "VALERIO",
+                                "ELEONORA",
+                                "MARIANNA",
+                                "ELISA",
+                                "ARPAGONE",
+                                "MASTRO GIACOMO",
+                                "ALICE",
+                                "FROSINA",
+                                "TUTTI DA DIETRO LE QUINTE",
+                                "COMMISSARIO"
                             ],
                             "testo": "Ooooooh !"
                         },
@@ -4403,13 +4423,13 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "/LUCA Quali altre prove ?"
+                            "testo": "Quali altre prove ?"
                         },
                         {
                             "personaggi": [
-                                "ANDREA"
+                                "ARPAGONE"
                             ],
-                            "testo": "/ARPAGONE Basta \u2026"
+                            "testo": "Basta \u2026"
                         },
                         {
                             "personaggi": [
@@ -4439,7 +4459,7 @@ const scriptData = {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "/ELEONORA Genio."
+                            "testo": "Genio."
                         },
                         {
                             "personaggi": [
@@ -4491,7 +4511,17 @@ const scriptData = {
                         },
                         {
                             "personaggi": [
-                                "TUTTI"
+                                "ANSELMO",
+                                "VALERIO",
+                                "ELEONORA",
+                                "MARIANNA",
+                                "ELISA",
+                                "ARPAGONE",
+                                "MASTRO GIACOMO",
+                                "ALICE",
+                                "FROSINA",
+                                "TUTTI DA DIETRO LE QUINTE",
+                                "COMMISSARIO"
                             ],
                             "testo": "Oooooh!"
                         },
@@ -4509,7 +4539,17 @@ const scriptData = {
                         },
                         {
                             "personaggi": [
-                                "TUTTI"
+                                "ANSELMO",
+                                "VALERIO",
+                                "ELEONORA",
+                                "MARIANNA",
+                                "ELISA",
+                                "ARPAGONE",
+                                "MASTRO GIACOMO",
+                                "ALICE",
+                                "FROSINA",
+                                "TUTTI DA DIETRO LE QUINTE",
+                                "COMMISSARIO"
                             ],
                             "testo": "Ooooh!"
                         },
@@ -4527,7 +4567,17 @@ const scriptData = {
                         },
                         {
                             "personaggi": [
-                                "TUTTI"
+                                "ANSELMO",
+                                "VALERIO",
+                                "ELEONORA",
+                                "MARIANNA",
+                                "ELISA",
+                                "ARPAGONE",
+                                "MASTRO GIACOMO",
+                                "ALICE",
+                                "FROSINA",
+                                "TUTTI DA DIETRO LE QUINTE",
+                                "COMMISSARIO"
                             ],
                             "testo": "Ooooh!"
                         },
@@ -4545,7 +4595,17 @@ const scriptData = {
                         },
                         {
                             "personaggi": [
-                                "TUTTI"
+                                "ANSELMO",
+                                "VALERIO",
+                                "ELEONORA",
+                                "MARIANNA",
+                                "ELISA",
+                                "ARPAGONE",
+                                "MASTRO GIACOMO",
+                                "ALICE",
+                                "FROSINA",
+                                "TUTTI DA DIETRO LE QUINTE",
+                                "COMMISSARIO"
                             ],
                             "testo": "Ooooh!"
                         },
@@ -4563,20 +4623,17 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "FROSINA",
-                        "LUCA",
                         "ANSELMO",
-                        "ANDREA",
-                        "MARIANNA",
-                        "MASTRO GIACOMO",
-                        "TUTTI DA DIETRO LE QUINTE",
-                        "COMMISSARIO",
-                        "OMAR",
+                        "VALERIO",
                         "ELEONORA",
+                        "MARIANNA",
                         "ELISA",
                         "ARPAGONE",
+                        "MASTRO GIACOMO",
                         "ALICE",
-                        "VALERIO"
+                        "FROSINA",
+                        "TUTTI DA DIETRO LE QUINTE",
+                        "COMMISSARIO"
                     ]
                 },
                 {
@@ -4680,10 +4737,10 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "MARIANNA",
                         "ARPAGONE",
                         "ANSELMO",
-                        "CLEANTE"
+                        "CLEANTE",
+                        "MARIANNA"
                     ]
                 }
             ],
