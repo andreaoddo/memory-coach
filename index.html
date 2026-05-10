@@ -33,6 +33,7 @@
 <div class="container">
     <!-- Aggiunto ID per il titolo -->
     <h1 id="script-title">🎭 Memory Coach</h1>
+    <h2 id="scene-title" style="display:none;"></h2>
 
     <div id="setup-controls">
         <div class="section">
@@ -73,6 +74,8 @@
     let revealedWords = 0;
     let isLineVisible = false;
     let ttsEnabled = true;
+    let currentAttoIdx = 0;
+		let currentScenaIdx = 0;
 
     // --- Inizializzazione ---
     window.onload = () => {
@@ -116,60 +119,113 @@
         });
     }
 
-    function startStudy() {
-        const [aIdx, sIdx] = document.getElementById('sceneSelect').value.split('-');
-        myChar = document.getElementById('charSelect').value;
-        currentLines = scriptData.atti[aIdx].scene[sIdx].battute;
-        currentIndex = 0;
-        
-        document.getElementById('setup-controls').style.display = 'none';
-        document.getElementById('player').style.display = 'block';
-        renderLine();
-    }
+		function startStudy() {
+				const [aIdx, sIdx] = document.getElementById('sceneSelect').value.split('-').map(Number);
+				currentAttoIdx = aIdx;
+				currentScenaIdx = sIdx;
+				myChar = document.getElementById('charSelect').value;
+				
+				currentLines = scriptData.atti[currentAttoIdx].scene[currentScenaIdx].battute;
+				currentIndex = 0;
+				
+				document.getElementById('setup-controls').style.display = 'none';
+				document.getElementById('player').style.display = 'block';
+				document.getElementById('scene-title').style.display = 'block';
+				renderLine();
+		}
 
     function renderLine() {
-    const line = currentLines[currentIndex];
-    const speakerEl = document.getElementById('speaker');
-    const contentEl = document.getElementById('content');
-    const suggestBtn = document.getElementById('suggestBtn');
-    const toggleBtn = document.getElementById('toggleBtn');
-    
-    speakerEl.textContent = line.personaggi.join(", ");
-    revealedWords = 0; 
-    isLineVisible = false;
-    toggleBtn.textContent = "Mostra Battuta (H)";
+				const line = currentLines[currentIndex];
+				const speakerEl = document.getElementById('speaker');
+				const contentEl = document.getElementById('content');
+				const suggestBtn = document.getElementById('suggestBtn');
+				const toggleBtn = document.getElementById('toggleBtn');
+				// Aggiungi questo dentro renderLine
+				const scenaTitolo = `${scriptData.atti[currentAttoIdx].titolo} - ${scriptData.atti[currentAttoIdx].scene[currentScenaIdx].titolo}` || `Atto ${currentAttoIdx} - Scena ${currentScenaIdx + 1}`;
+				document.getElementById('scene-title').textContent = scenaTitolo;
+				
+				speakerEl.textContent = line.personaggi.join(", ");
+				revealedWords = 0; 
+				isLineVisible = false;
+				toggleBtn.textContent = "Mostra Battuta (H)";
 
-    // Se NON è il tuo turno (o è lettura libera), l'app parla
-    if (myChar === "LETTURA_LIBERA" || !line.personaggi.includes(myChar)) {
-        contentEl.textContent = `"${line.testo}"`;
-        suggestBtn.style.display = 'none';
-        toggleBtn.style.display = 'none';
-        
-        // --- AGGIUNTA: L'app legge la battuta ---
-        if (ttsEnabled) speak(line.testo);
-    } 
-    else {
-        // Se è il tuo turno, l'app sta zitta e aspetta te
-        window.speechSynthesis.cancel(); // Silenzio per sicurezza
-        contentEl.innerHTML = `<span class="cue">TOCCA A TE!</span>`;
-        suggestBtn.style.display = 'block';
-        toggleBtn.style.display = 'block';
-    }
-}
+				// Se NON è il tuo turno (o è lettura libera), l'app parla
+				if (myChar === "LETTURA_LIBERA" || !line.personaggi.includes(myChar)) {
+				    contentEl.textContent = `"${line.testo}"`;
+				    suggestBtn.style.display = 'none';
+				    toggleBtn.style.display = 'none';
+				    
+				    // --- AGGIUNTA: L'app legge la battuta ---
+				    if (ttsEnabled) speak(line.testo);
+				} 
+				else {
+				    // Se è il tuo turno, l'app sta zitta e aspetta te
+				    window.speechSynthesis.cancel(); // Silenzio per sicurezza
+				    contentEl.innerHTML = `<span class="cue">TOCCA A TE!</span>`;
+				    suggestBtn.style.display = 'block';
+				    toggleBtn.style.display = 'block';
+				}
+		}
 
     function nextLine() {
-        if (currentIndex < currentLines.length - 1) {
-            currentIndex++;
-            renderLine();
-        }
-    }
+				if (currentIndex < currentLines.length - 1) {
+				    // Avanti normale nella stessa scena
+				    currentIndex++;
+				    renderLine();
+				} else {
+				    // Tentativo di passare alla scena successiva
+				    const atti = scriptData.atti;
+				    if (currentScenaIdx < atti[currentAttoIdx].scene.length - 1) {
+				        // Nuova scena nello stesso atto
+				        currentScenaIdx++;
+				        loadNewScene(0); 
+				    } else if (currentAttoIdx < atti.length - 1) {
+				        // Primo atto finito, passa alla prima scena dell'atto dopo
+				        currentAttoIdx++;
+				        currentScenaIdx = 0;
+				        loadNewScene(0);
+				    } else {
+				        alert("Sipario! Fine dello spettacolo.");
+				    }
+				}
+		}
 
-    function prevLine() {
-        if (currentIndex > 0) {
-            currentIndex--;
-            renderLine();
-        }
-    }
+		function prevLine() {
+				if (currentIndex > 0) {
+				    // Indietro normale nella stessa scena
+				    currentIndex--;
+				    renderLine();
+				} else {
+				    // Tentativo di tornare alla scena precedente
+				    if (currentScenaIdx > 0) {
+				        // Scena precedente nello stesso atto
+				        currentScenaIdx--;
+				        loadNewScene('LAST');
+				    } else if (currentAttoIdx > 0) {
+				        // Torna all'ultimo atto e all'ultima scena di quell'atto
+				        currentAttoIdx--;
+				        currentScenaIdx = scriptData.atti[currentAttoIdx].scene.length - 1;
+				        loadNewScene('LAST');
+				    } else {
+				        console.log("Sei all'inizio del primo atto.");
+				    }
+				}
+		}
+
+		// Funzione di supporto per caricare la nuova scena e aggiornare l'interfaccia
+		function loadNewScene(startIndex) {
+				currentLines = scriptData.atti[currentAttoIdx].scene[currentScenaIdx].battute;
+				
+				// Se startIndex è 'LAST', vai all'ultima battuta della scena (per quando torni indietro)
+				currentIndex = (startIndex === 'LAST') ? currentLines.length - 1 : startIndex;
+				
+				// Sincronizziamo la select nel menu (così se esci è tutto aggiornato)
+				document.getElementById('sceneSelect').value = `${currentAttoIdx}-${currentScenaIdx}`;
+				
+				// Opzionale: aggiorna il personaggio se quello attuale non c'è nella nuova scena
+				// Ma per ora lasciamo così, renderLine gestirà la lettura libera se il personaggio manca
+				renderLine();
+		}
 
     function toggleFullLine() {
         const contentEl = document.getElementById('content');
@@ -200,6 +256,7 @@
 
     function resetSetup() {
         document.getElementById('player').style.display = 'none';
+        document.getElementById('scene-title').style.display = 'none';
         document.getElementById('setup-controls').style.display = 'block';
     }
 
