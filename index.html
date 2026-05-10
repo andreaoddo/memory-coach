@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teatro Memory Coach</title>
-    <!-- Assicurati che script.js esista e contenga: const scriptData = {...} -->
+    <!-- Il file script.js deve definire: const scriptData = {...} -->
     <script src="script.js"></script>
     <style>
         :root {
@@ -12,79 +12,88 @@
             --accent: #e67e22;
             --light: #ecf0f1;
             --danger: #c0392b;
+            --success: #27ae60;
         }
-        body { font-family: 'Segoe UI', sans-serif; background: var(--light); color: var(--primary); display: flex; flex-direction: column; align-items: center; padding: 20px; }
-        .container { max-width: 600px; width: 100%; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
-        h1 { text-align: center; color: var(--primary); }
-        .section { margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #ddd; }
-        label { display: block; font-weight: bold; margin-bottom: 5px; }
-        select, button { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 1rem; }
-        button { cursor: pointer; background: var(--primary); color: white; border: none; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--light); color: var(--primary); display: flex; flex-direction: column; align-items: center; padding: 20px; margin: 0; }
+        .container { max-width: 600px; width: 100%; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-top: 20px; }
+        h1 { text-align: center; margin-bottom: 10px; font-size: 1.5rem; }
+        #scene-title { text-align: center; color: #7f8c8d; font-size: 1rem; margin-bottom: 20px; border-bottom: 2px solid var(--light); padding-bottom: 10px; }
+        .section { margin-bottom: 20px; }
+        label { display: block; font-weight: bold; margin-bottom: 8px; }
+        select, button { width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; }
+        button { cursor: pointer; transition: opacity 0.2s; font-weight: bold; border: none; }
+        button:hover { opacity: 0.9; }
         .btn-group { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-        #display-area { min-height: 150px; background: #f9f9f9; border: 2px dashed #bdc3c7; border-radius: 8px; padding: 20px; text-align: center; margin-top: 10px; }
-        .speaker-name { font-weight: bold; color: var(--accent); text-transform: uppercase; margin-bottom: 10px; }
-        .line-text { font-size: 1.2rem; line-height: 1.5; }
-        .cue { color: var(--danger); font-weight: bold; animation: blink 1.5s infinite; }
-        @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
+        
+        #display-area { min-height: 180px; background: #fdfdfd; border: 2px solid #eee; border-radius: 12px; padding: 25px; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 15px 0; }
+        .speaker-name { font-weight: bold; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px; font-size: 0.9rem; }
+        .line-text { font-size: 1.3rem; line-height: 1.6; font-style: italic; }
+        .cue { color: var(--danger); font-weight: bold; animation: blink 1.5s infinite; font-style: normal; }
+        
+        @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.4; } 100% { opacity: 1; } }
+        .hidden { display: none !important; }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <!-- Aggiunto ID per il titolo -->
     <h1 id="script-title">🎭 Memory Coach</h1>
-    <h2 id="scene-title" style="display:none;"></h2>
+    <div id="scene-title">Seleziona una scena per iniziare</div>
 
+    <!-- Schermata Iniziale: Setup -->
     <div id="setup-controls">
         <div class="section">
-            <label>Seleziona Atto e Scena</label>
+            <label for="sceneSelect">Atto e Scena</label>
             <select id="sceneSelect"></select>
             
-            <label>Il Tuo Personaggio</label>
+            <label for="charSelect">Il Tuo Personaggio</label>
             <select id="charSelect"></select>
             
-            <button onclick="startStudy()" style="background:#27ae60;">Inizia Studio</button>
+            <button onclick="startStudy()" style="background: var(--success); color: white; margin-top: 10px;">Inizia Studio</button>
         </div>
     </div>
 
-    <div id="player" style="display:none;">
+    <!-- Schermata Player: Studio -->
+    <div id="player" class="hidden">
         <div id="display-area">
             <div id="speaker" class="speaker-name"></div>
             <div id="content" class="line-text"></div>
         </div>
         
-        <div class="btn-group" style="margin-top:20px;">
-            <button onclick="prevLine()">⬅ Indietro</button>
-            <button onclick="nextLine()">Avanti ➡</button>
+        <div class="btn-group">
+            <button onclick="prevLine()" style="background: #95a5a6; color: white;">⬅ Indietro</button>
+            <button onclick="nextLine()" style="background: var(--primary); color: white;">Avanti ➡</button>
         </div>
-        <div id="hints" class="btn-group" style="margin-top:10px;">
-            <button id="suggestBtn" onclick="suggestWord()" style="background:var(--accent);">Suggerisci (S)</button>
-            <button id="toggleBtn" onclick="toggleFullLine()" style="background:#3498db;">Mostra/Nascondi (H)</button>
+
+        <div id="hints-area" class="btn-group" style="margin-top:10px;">
+            <button id="suggestBtn" onclick="suggestWord()" style="background: var(--accent); color: white;">Suggerisci (S)</button>
+            <button id="toggleBtn" onclick="toggleFullLine()" style="background: #3498db; color: white;">Mostra Tutto (H)</button>
         </div>
-        <button onclick="resetSetup()" style="background:#7f8c8d; margin-top:10px;">Cambia Scena/Personaggio</button>
-        <button onclick="ttsEnabled = !ttsEnabled; this.textContent = ttsEnabled ? '🔊 Voce ON' : '🔇 Voce OFF'">🔊 Voce ON</button>
+
+        <button onclick="resetSetup()" style="background: none; color: #7f8c8d; border: 1px solid #ccc; margin-top: 20px;">Cambia Scena o Personaggio</button>
     </div>
 </div>
 
 <script>
-    // NON reinizializzare scriptData a null se lo carichi da script.js!
-    let currentLines = [];
+    // --- Stato dell'Applicazione ---
+    let currentAttoIdx = 0;
+    let currentScenaIdx = 0;
     let currentIndex = 0;
+    let currentLines = [];
     let myChar = "";
+    
+    // Flag per i suggerimenti
     let revealedWords = 0;
     let isLineVisible = false;
-    let ttsEnabled = true;
-    let currentAttoIdx = 0;
-		let currentScenaIdx = 0;
+    let currentAudio = null;
 
     // --- Inizializzazione ---
     window.onload = () => {
-        // Verifichiamo che scriptData sia stato caricato dal file esterno
         if (typeof scriptData !== 'undefined') {
-            document.getElementById('script-title').textContent = "🎭 " + scriptData.titolo;
+            document.getElementById('script-title').textContent = "🎭 " + (scriptData.titolo || "Memory Coach");
             populateSetup();
         } else {
-            alert("Errore: script.js non trovato o non configurato correttamente!");
+            alert("Errore: script.js non trovato. Assicurati che il file script.js sia nella stessa cartella dell'indice.");
         }
     };
 
@@ -108,10 +117,13 @@
     function updateCharacterList() {
         const sceneSelect = document.getElementById('sceneSelect');
         const charSelect = document.getElementById('charSelect');
-        const [aIdx, sIdx] = sceneSelect.value.split('-');
-        const personaggi = scriptData.atti[aIdx].scene[sIdx].personaggi;
+        const [aIdx, sIdx] = sceneSelect.value.split('-').map(Number);
+        
+        // Estrae personaggi unici dalla scena selezionata
+        const scene = scriptData.atti[aIdx].scene[sIdx];
+        const personaggi = [...new Set(scene.battute.flatMap(b => b.personaggi))];
 
-        charSelect.innerHTML = '<option value="LETTURA_LIBERA">📖 Lettura Libera</option>';
+        charSelect.innerHTML = '<option value="LETTURA_LIBERA">📖 Lettura Libera (Tutte le voci)</option>';
         personaggi.forEach(p => {
             const opt = document.createElement('option');
             opt.value = p; opt.textContent = p;
@@ -119,128 +131,140 @@
         });
     }
 
-		function startStudy() {
+    function startStudy() {
 				const [aIdx, sIdx] = document.getElementById('sceneSelect').value.split('-').map(Number);
 				currentAttoIdx = aIdx;
 				currentScenaIdx = sIdx;
 				myChar = document.getElementById('charSelect').value;
 				
-				currentLines = scriptData.atti[currentAttoIdx].scene[currentScenaIdx].battute;
-				currentIndex = 0;
+				// RESET DELL'INDICE alla prima battuta
+				currentIndex = 0; 
 				
-				document.getElementById('setup-controls').style.display = 'none';
-				document.getElementById('player').style.display = 'block';
-				document.getElementById('scene-title').style.display = 'block';
-				if(myChar == "LETTURA_LIBERA") {
-					document.getElementById('hints').style.display = 'none';
-				}
+				loadCurrentScene();
+				
+				document.getElementById('setup-controls').classList.add('hidden');
+				document.getElementById('player').classList.remove('hidden');
 				
 				renderLine();
 		}
-		
-		let currentAudio = null; // Variabile globale per gestire l'audio
 
-		function playLocalAudio() {
-				const line = currentLines[currentIndex];
-				
-				// 1. Fermiamo l'audio precedente se sta ancora suonando
-				if (currentAudio) {
-				    currentAudio.pause();
-				    currentAudio.currentTime = 0;
-				}
+    // --- Logica Core ---
 
-				// 2. Se non è il mio turno (o sono in lettura libera), riproduco l'audio
-				// line.hash è il valore che Python ha scritto per noi
-				console.log(line.hash);
-				if (line.hash) {
-				    const audioPath = `audio/${line.hash}.mp3`;
-				    console.log("audioPath =", audioPath);
-				    currentAudio = new Audio(audioPath);
+    function loadCurrentScene() {
+        currentLines = scriptData.atti[currentAttoIdx].scene[currentScenaIdx].battute;
+        const scenaTitolo = scriptData.atti[currentAttoIdx].scene[currentScenaIdx].titolo;
+        const attoTitolo = scriptData.atti[currentAttoIdx].titolo;
+        document.getElementById('scene-title').textContent = `${attoTitolo} • ${scenaTitolo}`;
+    }
 
-				    currentAudio.play().catch(error => {
-				        console.error("Errore nella riproduzione dell'audio:", error);
-				        // Opzionale: qui potresti mettere un fallback al TTS di sistema
-				    });
-				}
-		}
+    function playLocalAudio() {
+        const line = currentLines[currentIndex];
+        
+        if (currentAudio) {
+            currentAudio.pause();
+            currentAudio.currentTime = 0;
+        }
+
+        if (line.hash) {
+            const audioPath = `audio/${line.hash}.mp3`;
+            currentAudio = new Audio(audioPath);
+            currentAudio.play().catch(e => console.log("Audio non trovato:", audioPath));
+        }
+    }
 
     function renderLine() {
-				const line = currentLines[currentIndex];
-				const iAmSpeaking = line.personaggi.includes(myChar);
+				if (currentIndex >= currentLines.length) currentIndex = 0;
+				if (currentIndex < 0) currentIndex = 0;
+        const line = currentLines[currentIndex];
+        const speakerEl = document.getElementById('speaker');
+        const contentEl = document.getElementById('content');
+        const hintsArea = document.getElementById('hints-area');
+        
+        // Reset stati suggerimento
+        revealedWords = 0;
+        isLineVisible = false;
+        document.getElementById('toggleBtn').textContent = "Mostra Tutto (H)";
 
-				// Aggiornamento interfaccia...
-				document.getElementById('speaker').textContent = line.personaggi.join(" & ");
+        speakerEl.textContent = line.personaggi.join(" & ");
 
-				if (myChar !== "LETTURA_LIBERA" && iAmSpeaking) {
-				    // TOCCA A TE: Silenzio
-				    if (currentAudio) currentAudio.pause();
-				    document.getElementById('content').innerHTML = `<span class="cue">TOCCA A TE!</span>`;
-				} else {
-				    // ASCOLTO: Mostra testo e riproduci file MP3 tramite hash
-				    document.getElementById('content').textContent = `"${line.testo}"`;
-				    playLocalAudio();
-				}
-		}
+        const iAmSpeaking = line.personaggi.includes(myChar);
+
+        if (myChar !== "LETTURA_LIBERA" && iAmSpeaking) {
+            // TURNO UTENTE
+            if (currentAudio) currentAudio.pause();
+            contentEl.innerHTML = `<span class="cue">TOCCA A TE!</span>`;
+            hintsArea.classList.remove('hidden');
+        } else {
+            // TURNO AI
+            contentEl.textContent = `"${line.testo}"`;
+            hintsArea.classList.add('hidden');
+            playLocalAudio();
+        }
+    }
+
+    // --- Navigazione ---
 
     function nextLine() {
 				if (currentIndex < currentLines.length - 1) {
-				    // Avanti normale nella stessa scena
+				    // Avanti normale
 				    currentIndex++;
 				    renderLine();
 				} else {
-				    // Tentativo di passare alla scena successiva
+				    // Tentativo di cambio scena automatico
 				    const atti = scriptData.atti;
 				    if (currentScenaIdx < atti[currentAttoIdx].scene.length - 1) {
-				        // Nuova scena nello stesso atto
+				        // Nuova scena stesso atto
 				        currentScenaIdx++;
-				        loadNewScene(0); 
+				        currentIndex = 0; // RESET FONDAMENTALE
+				        loadCurrentScene();
+				        renderLine();
 				    } else if (currentAttoIdx < atti.length - 1) {
-				        // Primo atto finito, passa alla prima scena dell'atto dopo
+				        // Nuovo atto, prima scena
 				        currentAttoIdx++;
 				        currentScenaIdx = 0;
-				        loadNewScene(0);
+				        currentIndex = 0; // RESET FONDAMENTALE
+				        loadCurrentScene();
+				        renderLine();
 				    } else {
-				        alert("Sipario! Fine dello spettacolo.");
+				        alert("Fine del copione!");
 				    }
 				}
 		}
 
 		function prevLine() {
 				if (currentIndex > 0) {
-				    // Indietro normale nella stessa scena
+				    // Indietro normale
 				    currentIndex--;
 				    renderLine();
 				} else {
 				    // Tentativo di tornare alla scena precedente
 				    if (currentScenaIdx > 0) {
-				        // Scena precedente nello stesso atto
 				        currentScenaIdx--;
-				        loadNewScene('LAST');
+				        loadCurrentScene();
+				        // Se torniamo indietro di una scena, vogliamo andare all'ULTIMA battuta
+				        currentIndex = currentLines.length - 1; 
+				        renderLine();
 				    } else if (currentAttoIdx > 0) {
-				        // Torna all'ultimo atto e all'ultima scena di quell'atto
 				        currentAttoIdx--;
 				        currentScenaIdx = scriptData.atti[currentAttoIdx].scene.length - 1;
-				        loadNewScene('LAST');
-				    } else {
-				        console.log("Sei all'inizio del primo atto.");
+				        loadCurrentScene();
+				        currentIndex = currentLines.length - 1;
+				        renderLine();
 				    }
 				}
 		}
 
-		// Funzione di supporto per caricare la nuova scena e aggiornare l'interfaccia
-		function loadNewScene(startIndex) {
-				currentLines = scriptData.atti[currentAttoIdx].scene[currentScenaIdx].battute;
-				
-				// Se startIndex è 'LAST', vai all'ultima battuta della scena (per quando torni indietro)
-				currentIndex = (startIndex === 'LAST') ? currentLines.length - 1 : startIndex;
-				
-				// Sincronizziamo la select nel menu (così se esci è tutto aggiornato)
-				document.getElementById('sceneSelect').value = `${currentAttoIdx}-${currentScenaIdx}`;
-				
-				// Opzionale: aggiorna il personaggio se quello attuale non c'è nella nuova scena
-				// Ma per ora lasciamo così, renderLine gestirà la lettura libera se il personaggio manca
-				renderLine();
-		}
+    // --- Funzioni di Aiuto ---
+
+    function suggestWord() {
+        const fullText = currentLines[currentIndex].testo;
+        const words = fullText.split(/\s+/);
+        if (revealedWords < words.length) {
+            revealedWords++;
+            const partial = words.slice(0, revealedWords).join(" ");
+            document.getElementById('content').innerHTML = `<span style="color:var(--success)">${partial}</span>${revealedWords < words.length ? '...' : ''}`;
+        }
+    }
 
     function toggleFullLine() {
         const contentEl = document.getElementById('content');
@@ -248,65 +272,35 @@
         const fullText = currentLines[currentIndex].testo;
 
         if (!isLineVisible) {
-            contentEl.innerHTML = `<span style="color:#2c3e50">${fullText}</span>`;
-            toggleBtn.textContent = "Nascondi Battuta (H)";
+            contentEl.innerHTML = `<span style="color:var(--primary)">${fullText}</span>`;
+            toggleBtn.textContent = "Nascondi (H)";
             isLineVisible = true;
         } else {
             contentEl.innerHTML = `<span class="cue">TOCCA A TE!</span>`;
-            toggleBtn.textContent = "Mostra Battuta (H)";
+            toggleBtn.textContent = "Mostra Tutto (H)";
             isLineVisible = false;
             revealedWords = 0;
         }
     }
 
-    function suggestWord() {
-        const fullText = currentLines[currentIndex].testo;
-        const words = fullText.split(" ");
-        if (revealedWords < words.length) {
-            revealedWords++;
-            const partialText = words.slice(0, revealedWords).join(" ");
-            document.getElementById('content').innerHTML = `<span style="color:#2ecc71">${partialText}</span>${revealedWords < words.length ? '...' : ''}`;
-        }
-    }
-
     function resetSetup() {
-        document.getElementById('player').style.display = 'none';
-        document.getElementById('scene-title').style.display = 'none';
-        document.getElementById('setup-controls').style.display = 'block';
+        if (currentAudio) currentAudio.pause();
+        document.getElementById('player').classList.add('hidden');
+        document.getElementById('setup-controls').classList.remove('hidden');
+        document.getElementById('scene-title').textContent = "Seleziona una scena per iniziare";
     }
 
-    // --- Scorciatoie da Tastiera ---
+    // --- Tastiera ---
     document.addEventListener('keydown', (e) => {
-        if (document.getElementById('player').style.display === 'none') return;
+        if (document.getElementById('player').classList.contains('hidden')) return;
         
-        if (e.key === "ArrowRight") nextLine();
-        if (e.key === "ArrowLeft") prevLine();
-        if (e.key.toLowerCase() === "s") suggestWord();
-        if (e.key.toLowerCase() === "h") toggleFullLine();
+        switch(e.key.toLowerCase()) {
+            case "arrowright": case " ": e.preventDefault(); nextLine(); break;
+            case "arrowleft": prevLine(); break;
+            case "s": suggestWord(); break;
+            case "h": toggleFullLine(); break;
+        }
     });
-    
-    function speak(text) {
-		  window.speechSynthesis.cancel();
-		  const utterance = new SpeechSynthesisUtterance(text);
-    
-			// Recupera tutte le voci disponibili
-			const voices = window.speechSynthesis.getVoices();
-			
-			// Cerca una voce italiana di alta qualità (spesso marcata come 'Google' o 'Natural')
-			const premiumVoice = voices.find(v => v.lang === 'it-IT' && v.name.includes('Google')) 
-			                  || voices.find(v => v.lang === 'it-IT' && v.name.includes('Natural'))
-			                  || voices.find(v => v.lang === 'it-IT');
-
-			if (premiumVoice) utterance.voice = premiumVoice;
-			
-			utterance.lang = 'it-IT';
-			utterance.rate = 1.25;
-			window.speechSynthesis.speak(utterance);
-		}
-
-	// Nota: le voci vengono caricate asincronamente, quindi forziamo il caricamento
-	window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
-    
 </script>
 
 </body>
