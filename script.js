@@ -10,7 +10,7 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Cosa c\u2019\u00e8, Elisa? Io al colmo della felicit\u00e0 e voi vi fate malinconica ? Forse vi siete pentita della bont\u00e0 di giurarmi la vostra fede ? Forse vi ha costretta il mio ardore?"
+                            "testo": "Cosa c\u2019\u00e8, Elisa? Io al colmo della felicit\u00e0 e voi vi fate malinconica? Forse vi siete pentita della bont\u00e0 di giurarmi la vostra fede? Forse vi ha costretta il mio ardore?"
                         },
                         {
                             "personaggi": [
@@ -28,7 +28,7 @@ const scriptData = {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Ahim\u00e8, cento cose insieme! La collera di mio padre \u2026 le censure del mondo \u2026 ma pi\u00f9 di ogni altra cosa, Valerio, temo un possibile mutamento del vostro cuore, e quella scellerata freddezza con cui gli uomini ripagano il pi\u00f9 delle volte le testimonianze troppo ardenti di un amore innocente."
+                            "testo": "Ahim\u00e8, cento cose insieme! La collera di mio padre\u2026 le censure del mondo\u2026 ma pi\u00f9 di ogni altra cosa, Valerio, temo un possibile mutamento del vostro cuore, e quella scellerata freddezza con cui gli uomini ripagano il pi\u00f9 delle volte le testimonianze troppo ardenti di un amore innocente."
                         },
                         {
                             "personaggi": [
@@ -58,19 +58,19 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Ma perch\u00e9 pensate questo ?"
+                            "testo": "Ma perch\u00e9 pensate questo?"
                         },
                         {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Non avrei nulla da temere se tutti vi vedessero come io vi vedo. Ho continuamente davanti agli occhi lo spaventoso incidente che per primo ci offerse l\u2019uno agli sguardi dell\u2019altro; la sorprendente generosit\u00e0 che vi spinse a rischiare la vostra vita per strappare la mia al furore delle onde; le tenere attenzioni che mi avete manifestate dopo avermi tirato fuori dall\u2019acqua \u2026 Questo ardente amore che n\u00e9 il tempo n\u00e9 le difficolt\u00e0 hanno scoraggiato e che vi ha indotto a trascurare patria e famiglia, trattenendovi in questi luoghi ove per me tiene celata la vostra ricchezza, riducendovi pur di vedermi, a entrare al servizio di mio padre. Tutto questo \u00e8 pi\u00f9che sufficiente per giustificare ai miei occhi il legame cui ho consentito, ma forse non basta per giustificarlo agli altri, ed \u00e8 per questo che l\u2019idea di svelare i miei sentimenti mi preoccupa tanto."
+                            "testo": "Non avrei nulla da temere se tutti vi vedessero come io vi vedo. Ho continuamente davanti agli occhi lo spaventoso incidente che per primo ci offerse l\u2019uno agli sguardi dell\u2019altro; la sorprendente generosit\u00e0 che vi spinse a rischiare la vostra vita per strappare la mia al furore delle onde; le tenere attenzioni che mi avete manifestate dopo avermi tirato fuori dall\u2019acqua\u2026 Questo ardente amore che n\u00e9 il tempo n\u00e9 le difficolt\u00e0 hanno scoraggiato e che vi ha indotto a trascurare patria e famiglia, trattenendovi in questi luoghi ove per me tiene celata la vostra ricchezza, riducendovi pur di vedermi, a entrare al servizio di mio padre. Tutto questo \u00e8 pi\u00f9che sufficiente per giustificare ai miei occhi il legame cui ho consentito, ma forse non basta per giustificarlo agli altri, ed \u00e8 per questo che l\u2019idea di svelare i miei sentimenti mi preoccupa tanto."
                         },
                         {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Quanto ai vostri scrupoli ci pensa vostro padre a giustificarvi agli occhi del mondo intero. La sua avarizia, l\u2019austerit\u00e0 in cui vive, assieme ai propri figli, potrebbero giustificare cose ben pi\u00f9 inaudite! Perdonatemi, Elisa, se di vostro padre parlo cos\u00ec davanti a voi \u2026 sapete che sotto questo profilo parlarne bene \u00e8 impossibile. Ma se riuscir\u00f2, come spero, a ritrovare i miei genitori, proprio la sua avarizia giocher\u00e0 a nostro favore. Aspetto loro notizie con impazienza, e se tarderanno a venire, andr\u00f2 a cercarne io stesso."
+                            "testo": "Quanto ai vostri scrupoli ci pensa vostro padre a giustificarvi agli occhi del mondo intero. La sua avarizia, l\u2019austerit\u00e0 in cui vive, assieme ai propri figli, potrebbero giustificare cose ben pi\u00f9 inaudite! Perdonatemi, Elisa, se di vostro padre parlo cos\u00ec davanti a voi\u2026 sapete che sotto questo profilo parlarne bene \u00e8 impossibile. Ma se riuscir\u00f2, come spero, a ritrovare i miei genitori, proprio la sua avarizia giocher\u00e0 a nostro favore. Aspetto loro notizie con impazienza, e se tarderanno a venire, andr\u00f2 a cercarne io stesso."
                         },
                         {
                             "personaggi": [
@@ -88,7 +88,7 @@ const scriptData = {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Ma perch\u00e9 non cercate di conquistare anche l\u2019appoggio di mio fratello, nel caso alla cameriera salti in mente di rivelare il nostro segreto ? "
+                            "testo": "Ma perch\u00e9 non cercate di conquistare anche l\u2019appoggio di mio fratello, nel caso alla cameriera salti in mente di rivelare il nostro segreto? "
                         },
                         {
                             "personaggi": [
@@ -145,7 +145,7 @@ const scriptData = {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Ti sei gi\u00e0 impegnato con la donna che ami ?"
+                            "testo": "Ti sei gi\u00e0 impegnato con la donna che ami?"
                         },
                         {
                             "personaggi": [
@@ -157,7 +157,7 @@ const scriptData = {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Cleante, ti sembro un tipo cos\u00ec severo ?"
+                            "testo": "Cleante, ti sembro un tipo cos\u00ec severo?"
                         },
                         {
                             "personaggi": [
@@ -175,7 +175,7 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Ah, piacesse al Cielo che la tua anima, al pari della mia \u2026"
+                            "testo": "Ah, piacesse al Cielo che la tua anima, al pari della mia\u2026"
                         },
                         {
                             "personaggi": [
@@ -187,7 +187,7 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Una giovane che da poco tempo abita qui, in questo quartiere. Mai la Natura, Elisa, ha creato nulla di pi\u00f9 amabile. Si chiama Marianna, e vive con una vecchia madre malata; essa la serve, la consola, l\u2019assiste con una tenerezza che ti toccherebbe il cuore. Affascinante come nessun\u2019altra in tutto quello che compie, una dolcezza piena di fascino, una bont\u00e0 che innamora, una \u2026 Oh, Elisa, come vorrei che tu l\u2019avessi vista!"
+                            "testo": "Una giovane che da poco tempo abita qui, in questo quartiere. Mai la Natura, Elisa, ha creato nulla di pi\u00f9 amabile. Si chiama Marianna, e vive con una vecchia madre malata; essa la serve, la consola, l\u2019assiste con una tenerezza che ti toccherebbe il cuore. Affascinante come nessun\u2019altra in tutto quello che compie, una dolcezza piena di fascino, una bont\u00e0 che innamora, una\u2026 Oh, Elisa, come vorrei che tu l\u2019avessi vista!"
                         },
                         {
                             "personaggi": [
@@ -211,7 +211,7 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Ma insomma, si \u00e8 mai visto nulla di pi\u00f9 crudele di questo parsimonioso rigore di cui siamo vittime? A cosa ci serve l\u2019avere qualcosa, se sar\u00e0 nostro solo quando non avremo pi\u00f9 la bella et\u00e0 per poterne godere ? Ho voluto parlare con te, affinch\u00e9 tu mi aiuti a sondare mio padre a proposito di questi miei sentimenti: se si mostrer\u00e0 contrario, me ne andr\u00f2 via con Marianna, ho deciso. E a questo scopo sto chiedendo dappertutto denaro in prestito. Se anche tu, Elisa, sei per caso in una situazione simile alla mia e si dia il caso che nostro padre si opponga ai nostri desideri, lo pianteremo qui tutti e due e ci libereremo di questa tirannia cui da troppo tempo ci costringe la sua insopportabile avarizia."
+                            "testo": "Ma insomma, si \u00e8 mai visto nulla di pi\u00f9 crudele di questo parsimonioso rigore di cui siamo vittime? A cosa ci serve l\u2019avere qualcosa, se sar\u00e0 nostro solo quando non avremo pi\u00f9 la bella et\u00e0 per poterne godere? Ho voluto parlare con te, affinch\u00e9 tu mi aiuti a sondare mio padre a proposito di questi miei sentimenti: se si mostrer\u00e0 contrario, me ne andr\u00f2 via con Marianna, ho deciso. E a questo scopo sto chiedendo dappertutto denaro in prestito. Se anche tu, Elisa, sei per caso in una situazione simile alla mia e si dia il caso che nostro padre si opponga ai nostri desideri, lo pianteremo qui tutti e due e ci libereremo di questa tirannia cui da troppo tempo ci costringe la sua insopportabile avarizia."
                         },
                         {
                             "personaggi": [
@@ -245,19 +245,19 @@ const scriptData = {
                             "personaggi": [
                                 "FRECCIA"
                             ],
-                            "testo": "Perch\u00e9 mi scacciate ?"
+                            "testo": "Perch\u00e9 mi scacciate?"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "E hai anche il coraggio di chiedermelo ? Fuori, di corsa, prima che ti ammazzi."
+                            "testo": "E hai anche il coraggio di chiedermelo? Fuori, di corsa, prima che ti ammazzi."
                         },
                         {
                             "personaggi": [
                                 "FRECCIA"
                             ],
-                            "testo": "Cosa vi ho fatto ?"
+                            "testo": "Cosa vi ho fatto?"
                         },
                         {
                             "personaggi": [
@@ -281,13 +281,13 @@ const scriptData = {
                             "personaggi": [
                                 "FRECCIA"
                             ],
-                            "testo": "Come diavolo volete che si faccia a rubarvi qualcosa ? Vi par d\u2019essere una persona derubabile, voi, che tenete tutto chiuso via e state di sentinella giorno e notte ?"
+                            "testo": "Come diavolo volete che si faccia a rubarvi qualcosa? Vi par d\u2019essere una persona derubabile, voi, che tenete tutto chiuso via e state di sentinella giorno e notte?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Io chiudo tutto quel che mi pare e piace, e faccio la sentinella finch\u00e9 ne ho voglia. Eccolo: visto, lo spione che sta attento a tutto ci\u00f2 che faccio ? Temo che abbia sospettato qualcosa dei miei soldi \u2026 Tu sei capace di mettere in giro la chiacchiera che io, qui in casa, ho dei soldi nascosti, vero ?"
+                            "testo": "Io chiudo tutto quel che mi pare e piace, e faccio la sentinella finch\u00e9 ne ho voglia. Eccolo: visto, lo spione che sta attento a tutto ci\u00f2 che faccio? Temo che abbia sospettato qualcosa dei miei soldi\u2026 Tu sei capace di mettere in giro la chiacchiera che io, qui in casa, ho dei soldi nascosti, vero?"
                         },
                         {
                             "personaggi": [
@@ -305,7 +305,7 @@ const scriptData = {
                             "personaggi": [
                                 "FRECCIA"
                             ],
-                            "testo": "Ah! Che cosa importa che ne abbiate o meno, quando per noi \u00e8 lo stesso ?"
+                            "testo": "Ah! Che cosa importa che ne abbiate o meno, quando per noi \u00e8 lo stesso?"
                         },
                         {
                             "personaggi": [
@@ -341,7 +341,7 @@ const scriptData = {
                             "personaggi": [
                                 "FRECCIA"
                             ],
-                            "testo": "Le altre ?"
+                            "testo": "Le altre?"
                         },
                         {
                             "personaggi": [
@@ -359,7 +359,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Hai messo niente l\u00ec dentro ?"
+                            "testo": "Hai messo niente l\u00ec dentro?"
                         },
                         {
                             "personaggi": [
@@ -383,19 +383,19 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Come? Cosa dici ?"
+                            "testo": "Come? Cosa dici?"
                         },
                         {
                             "personaggi": [
                                 "FRECCIA"
                             ],
-                            "testo": "Cosa dico ?"
+                            "testo": "Cosa dico?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "S\u00ec, cos\u2019\u00e8 che stai dicendo di avarizia e di avari ?"
+                            "testo": "S\u00ec, cos\u2019\u00e8 che stai dicendo di avarizia e di avari?"
                         },
                         {
                             "personaggi": [
@@ -407,7 +407,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "E di chi intendi parlare ?"
+                            "testo": "E di chi intendi parlare?"
                         },
                         {
                             "personaggi": [
@@ -419,7 +419,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "E chi sarebbero questi avari ?"
+                            "testo": "E chi sarebbero questi avari?"
                         },
                         {
                             "personaggi": [
@@ -431,19 +431,19 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "E a chi intenderesti alludere ?"
+                            "testo": "E a chi intenderesti alludere?"
                         },
                         {
                             "personaggi": [
                                 "FRECCIA"
                             ],
-                            "testo": "Credete che volessi alludere a voi ?"
+                            "testo": "Credete che volessi alludere a voi?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Io credo quel che mi pare e piace. Allora, ce l\u2019hai con me ?"
+                            "testo": "Io credo quel che mi pare e piace. Allora, ce l\u2019hai con me?"
                         },
                         {
                             "personaggi": [
@@ -467,7 +467,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Vuoi stare zitto ?"
+                            "testo": "Vuoi stare zitto?"
                         },
                         {
                             "personaggi": [
@@ -485,7 +485,7 @@ const scriptData = {
                             "personaggi": [
                                 "FRECCIA"
                             ],
-                            "testo": "Siete contento ? Guardate, un\u2019altra tasca."
+                            "testo": "Siete contento? Guardate, un\u2019altra tasca."
                         },
                         {
                             "personaggi": [
@@ -497,7 +497,7 @@ const scriptData = {
                             "personaggi": [
                                 "FRECCIA"
                             ],
-                            "testo": "Ma cosa ??"
+                            "testo": "Ma cosa??"
                         },
                         {
                             "personaggi": [
@@ -543,9 +543,9 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "ARPAGONE",
+                        "FRECCIA",
                         "CLEANTE",
-                        "FRECCIA"
+                        "ARPAGONE"
                     ]
                 },
                 {
@@ -555,7 +555,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Certo non \u00e8 una preoccupazione da poco tenersi in casa 10.000 scudi! Come se fosse facile inventarsi un nascondiglio sicuro! Perch\u00e9 le casseforti non mi sono mai piaciute: servono solo ad attirare l\u2019attenzione, infatti \u00e8 sempre da l\u00ec che cominciano i ladri. Eppure, chiss\u00e0 se ho fatto bene \u2026 10.000 scudi \u2026 Oh cielo! Che mi sia tradito da solo ? Cosa c\u2019\u00e8?"
+                            "testo": "Certo non \u00e8 una preoccupazione da poco tenersi in casa 10.000 scudi! Come se fosse facile inventarsi un nascondiglio sicuro! Perch\u00e9 le casseforti non mi sono mai piaciute: servono solo ad attirare l\u2019attenzione, infatti \u00e8 sempre da l\u00ec che cominciano i ladri. Eppure, chiss\u00e0 se ho fatto bene\u2026 10.000 scudi\u2026 Oh cielo! Che mi sia tradito da solo? Cosa c\u2019\u00e8?"
                         },
                         {
                             "personaggi": [
@@ -567,7 +567,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "\u00c8 da tanto che siete qui ?"
+                            "testo": "\u00c8 da tanto che siete qui?"
                         },
                         {
                             "personaggi": [
@@ -579,25 +579,25 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Avete sentito \u2026"
+                            "testo": "Avete sentito\u2026"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Che cosa, pap\u00e0 ?"
+                            "testo": "Che cosa, pap\u00e0?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Su, su \u2026"
+                            "testo": "Su, su\u2026"
                         },
                         {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Cosa ?"
+                            "testo": "Cosa?"
                         },
                         {
                             "personaggi": [
@@ -621,13 +621,13 @@ const scriptData = {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Ma scusate \u2026"
+                            "testo": "Ma scusate\u2026"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Qualche parolina l\u2019avete sentita senz\u2019altro. Che al giorno d\u2019oggi \u2026 tenersi in casa 10.000 scudi \u2026 Non vorrei pensaste che sia io ad avere 10.000 scudi."
+                            "testo": "Qualche parolina l\u2019avete sentita senz\u2019altro. Che al giorno d\u2019oggi\u2026 tenersi in casa 10.000 scudi\u2026 Non vorrei pensaste che sia io ad avere 10.000 scudi."
                         },
                         {
                             "personaggi": [
@@ -645,7 +645,7 @@ const scriptData = {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Queste son cose \u2026"
+                            "testo": "Queste son cose\u2026"
                         },
                         {
                             "personaggi": [
@@ -681,7 +681,7 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Vuol dire essere vostro nemico, dire che avete un po\u2019 di soldi ?"
+                            "testo": "Vuol dire essere vostro nemico, dire che avete un po\u2019 di soldi?"
                         },
                         {
                             "personaggi": [
@@ -693,19 +693,19 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Quali sarebbero le grandi spese che faccio ?"
+                            "testo": "Quali sarebbero le grandi spese che faccio?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Quali sarebbero ? Ti par poco questa scandalosa messinscena da gran signore che porti a spasso per la citt\u00e0? Il tuo modo di vivere non mi piace per niente. E per andare in giro vestito cos\u00ec, non c\u2019\u00e8 dubbio: tu mi derubi."
+                            "testo": "Quali sarebbero? Ti par poco questa scandalosa messinscena da gran signore che porti a spasso per la citt\u00e0? Il tuo modo di vivere non mi piace per niente. E per andare in giro vestito cos\u00ec, non c\u2019\u00e8 dubbio: tu mi derubi."
                         },
                         {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Pap\u00e0 !"
+                            "testo": "Pap\u00e0!"
                         },
                         {
                             "personaggi": [
@@ -789,7 +789,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Calma! Non allarmiamoci, so quel che ci vuole per tutti e due. Non avrete alcun motivo di lamentarvi. E tanto per cominciare da uno dei due \u2026 tu, di un po\u2019, hai mai visto una giovane donna, di nome Marianna, che abita non lontano da qui ?"
+                            "testo": "Calma! Non allarmiamoci, so quel che ci vuole per tutti e due. Non avrete alcun motivo di lamentarvi. E tanto per cominciare da uno dei due\u2026 tu, di un po\u2019, hai mai visto una giovane donna, di nome Marianna, che abita non lontano da qui?"
                         },
                         {
                             "personaggi": [
@@ -801,7 +801,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "E tu ?"
+                            "testo": "E tu?"
                         },
                         {
                             "personaggi": [
@@ -825,7 +825,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "L\u2019aspetto ?"
+                            "testo": "L\u2019aspetto?"
                         },
                         {
                             "personaggi": [
@@ -885,7 +885,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "E che un marito pu\u00f2 trovarvi le sue soddisfazioni ?"
+                            "testo": "E che un marito pu\u00f2 trovarvi le sue soddisfazioni?"
                         },
                         {
                             "personaggi": [
@@ -909,7 +909,7 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Ah, pap\u00e0, che cosa sono i soldi di fronte alla virt\u00f9 in un matrimonio ?"
+                            "testo": "Ah, pap\u00e0, che cosa sono i soldi di fronte alla virt\u00f9 in un matrimonio?"
                         },
                         {
                             "personaggi": [
@@ -963,7 +963,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "S\u00ec, io, io, io. Come sarebbe a dire ?"
+                            "testo": "S\u00ec, io, io, io. Come sarebbe a dire?"
                         },
                         {
                             "personaggi": [
@@ -975,13 +975,13 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Non \u00e8 niente. Corri in cucina e bevi un bel bicchiere d\u2019acqua. Damerino di pastafrolla \u2026 Questo, figlia mia, \u00e8 quel che ho deciso per me. Quanto a tuo fratello,per lui ho pensato a una certa vedova di cui mi hanno parlato stamattina. E quanto a te, ti do in moglie al signor Anselmo."
+                            "testo": "Non \u00e8 niente. Corri in cucina e bevi un bel bicchiere d\u2019acqua. Damerino di pastafrolla\u2026 Questo, figlia mia, \u00e8 quel che ho deciso per me. Quanto a tuo fratello,per lui ho pensato a una certa vedova di cui mi hanno parlato stamattina. E quanto a te, ti do in moglie al signor Anselmo."
                         },
                         {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Al signor Anselmo ?"
+                            "testo": "Al signor Anselmo?"
                         },
                         {
                             "personaggi": [
@@ -1017,7 +1017,7 @@ const scriptData = {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Stasera ?"
+                            "testo": "Stasera?"
                         },
                         {
                             "personaggi": [
@@ -1083,19 +1083,19 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "E invece non ti uccidi, e lo sposi. Ma si \u00e8 mai visto una figlia rispondere a suo padre in questo modo ?"
+                            "testo": "E invece non ti uccidi, e lo sposi. Ma si \u00e8 mai visto una figlia rispondere a suo padre in questo modo?"
                         },
                         {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "E si \u00e8 mai visto un padre obbligare una figlia a sposarsi in questo modo ?"
+                            "testo": "E si \u00e8 mai visto un padre obbligare una figlia a sposarsi in questo modo?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Ecco Valerio. Vuoi che sia lui il giudice nella questione ?"
+                            "testo": "Ecco Valerio. Vuoi che sia lui il giudice nella questione?"
                         },
                         {
                             "personaggi": [
@@ -1107,7 +1107,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Ti arrenderai al suo giudizio ?"
+                            "testo": "Ti arrenderai al suo giudizio?"
                         },
                         {
                             "personaggi": [
@@ -1117,9 +1117,9 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "ARPAGONE",
+                        "ELISA",
                         "CLEANTE",
-                        "ELISA"
+                        "ARPAGONE"
                     ]
                 },
                 {
@@ -1141,7 +1141,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Sai di cosa stavamo parlando ?"
+                            "testo": "Sai di cosa stavamo parlando?"
                         },
                         {
                             "personaggi": [
@@ -1159,7 +1159,7 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Cosa ne dico ?"
+                            "testo": "Cosa ne dico?"
                         },
                         {
                             "personaggi": [
@@ -1171,31 +1171,31 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Beh, beh \u2026"
+                            "testo": "Beh, beh\u2026"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Come ?"
+                            "testo": "Come?"
                         },
                         {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Io dico che fondamentalmente sono anch\u2019io del vostro avviso, ma neanche lei peraltro ha tutti i torti \u2026"
+                            "testo": "Io dico che fondamentalmente sono anch\u2019io del vostro avviso, ma neanche lei peraltro ha tutti i torti\u2026"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Come? Il signor Anselmo \u00e8 un grosso partito, un vero gentiluomo, d\u2019animo nobile e pieno di soldi, e dal primo matrimonio non gli son rimasti figli. Pu\u00f2 una ragazza augurarsi di meglio ?"
+                            "testo": "Come? Il signor Anselmo \u00e8 un grosso partito, un vero gentiluomo, d\u2019animo nobile e pieno di soldi, e dal primo matrimonio non gli son rimasti figli. Pu\u00f2 una ragazza augurarsi di meglio?"
                         },
                         {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Questo \u00e8 vero. Ma lei potrebbe dirvi che non occorre far le cose cos\u00ec in fretta e che sarebbe meglio far passare del tempo per vedere \u2026"
+                            "testo": "Questo \u00e8 vero. Ma lei potrebbe dirvi che non occorre far le cose cos\u00ec in fretta e che sarebbe meglio far passare del tempo per vedere\u2026"
                         },
                         {
                             "personaggi": [
@@ -1243,7 +1243,7 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "L\u2019argomento \u00e8 decisivo, non si discute. Qualcuno magari potrebbe dirvi che in casi del genere sarebbe meglio tenere conto dell\u2019inclinazione della ragazza, della grande differenza d\u2019et\u00e0, di carattere, di sentimenti \u2026"
+                            "testo": "L\u2019argomento \u00e8 decisivo, non si discute. Qualcuno magari potrebbe dirvi che in casi del genere sarebbe meglio tenere conto dell\u2019inclinazione della ragazza, della grande differenza d\u2019et\u00e0, di carattere, di sentimenti\u2026"
                         },
                         {
                             "personaggi": [
@@ -1267,7 +1267,7 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Avete ragione. Com\u2019\u00e8 possibile resistere a un argomento di questo peso ?"
+                            "testo": "Avete ragione. Com\u2019\u00e8 possibile resistere a un argomento di questo peso?"
                         },
                         {
                             "personaggi": [
@@ -1279,7 +1279,7 @@ const scriptData = {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Siete impazzito, Valerio ?"
+                            "testo": "Siete impazzito, Valerio?"
                         },
                         {
                             "personaggi": [
@@ -1291,7 +1291,7 @@ const scriptData = {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Ma questo matrimonio, Valerio ?"
+                            "testo": "Ma questo matrimonio, Valerio?"
                         },
                         {
                             "personaggi": [
@@ -1303,7 +1303,7 @@ const scriptData = {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Ma cosa inventare, se \u00e8 stasera ?"
+                            "testo": "Ma cosa inventare, se \u00e8 stasera?"
                         },
                         {
                             "personaggi": [
@@ -1327,7 +1327,7 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Come ultima risorsa, potremo metterci al sicuro con la fuga. E se il vostro amore, Elisa, si sente capace di tanto \u2026 S\u00ec, una figlia deve obbedire a suo padre. Non deve assolutamente badare a come \u00e8 fatto un marito"
+                            "testo": "Come ultima risorsa, potremo metterci al sicuro con la fuga. E se il vostro amore, Elisa, si sente capace di tanto\u2026 S\u00ec, una figlia deve obbedire a suo padre. Non deve assolutamente badare a come \u00e8 fatto un marito"
                         },
                         {
                             "personaggi": [
@@ -1345,13 +1345,13 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "S\u00ec, te ne sar\u00f2 grato. Certo che \u2026"
+                            "testo": "S\u00ec, te ne sar\u00f2 grato. Certo che\u2026"
                         },
                         {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Mi sembra il caso di stringere un po\u2019 le briglie \u2026"
+                            "testo": "Mi sembra il caso di stringere un po\u2019 le briglie\u2026"
                         },
                         {
                             "personaggi": [
@@ -1363,7 +1363,7 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "S\u00ec, i soldi sono la cosa pi\u00f9 preziosa e importante al mondo, e voi dovete ringraziare il Cielo per avervi dato un padre cos\u00ec buono, che sa cos\u2019\u00e8 la vita. Nel matrimonio tutto \u00e8 racchiuso in queste parole \u201csenza dote\u201d , che pongono inesorabilmente in secondo piano bellezza e giovinezza, rango di nascita e onore, saggezza e probit\u00e0 \u2026"
+                            "testo": "S\u00ec, i soldi sono la cosa pi\u00f9 preziosa e importante al mondo, e voi dovete ringraziare il Cielo per avervi dato un padre cos\u00ec buono, che sa cos\u2019\u00e8 la vita. Nel matrimonio tutto \u00e8 racchiuso in queste parole \u201csenza dote\u201d, che pongono inesorabilmente in secondo piano bellezza e giovinezza, rango di nascita e onore, saggezza e probit\u00e0\u2026"
                         },
                         {
                             "personaggi": [
@@ -1373,9 +1373,9 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "ARPAGONE",
+                        "ELISA",
                         "VALERIO",
-                        "ELISA"
+                        "ARPAGONE"
                     ]
                 }
             ],
@@ -1390,7 +1390,7 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Eccolo qua ! Si pu\u00f2 sapere dove diavolo t\u2019eri andato a cacciare?"
+                            "testo": "Eccolo qua! Si pu\u00f2 sapere dove diavolo t\u2019eri andato a cacciare?"
                         },
                         {
                             "personaggi": [
@@ -1402,7 +1402,7 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Qui gli eventi incalzano ... Parla: cosa t\u2019han detto ?"
+                            "testo": "Qui gli eventi incalzano... Parla: cosa t\u2019han detto?"
                         },
                         {
                             "personaggi": [
@@ -1414,19 +1414,19 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Non si riesce a concludere ?"
+                            "testo": "Non si riesce a concludere?"
                         },
                         {
                             "personaggi": [
                                 "FRECCIA"
                             ],
-                            "testo": "Il nostro mastro Simone, il mediatore che ci hanno indicato, giura e spergiura che s\u2019\u00e8 fatto in quattro per voi \u2026"
+                            "testo": "Il nostro mastro Simone, il mediatore che ci hanno indicato, giura e spergiura che s\u2019\u00e8 fatto in quattro per voi\u2026"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Insomma, i 15.000 franchi li avr\u00f2 s\u00ec o no ?"
+                            "testo": "Insomma, i 15.000 franchi li avr\u00f2 s\u00ec o no?"
                         },
                         {
                             "personaggi": [
@@ -1438,7 +1438,7 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Ti ha fatto parlare con questo tizio ?"
+                            "testo": "Ti ha fatto parlare con questo tizio?"
                         },
                         {
                             "personaggi": [
@@ -1486,7 +1486,7 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Cosa?? Ma quello \u00e8 un ebreo! Fa il 25% !"
+                            "testo": "Cosa?? Ma quello \u00e8 un ebreo! Fa il 25%!"
                         },
                         {
                             "personaggi": [
@@ -1498,7 +1498,7 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Ma cosa vuoi che ci pensi ? Di quei soldi ho bisogno assoluto, non posso che accettare."
+                            "testo": "Ma cosa vuoi che ci pensi? Di quei soldi ho bisogno assoluto, non posso che accettare."
                         },
                         {
                             "personaggi": [
@@ -1522,7 +1522,7 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Come ?"
+                            "testo": "Come?"
                         },
                         {
                             "personaggi": [
@@ -1534,25 +1534,25 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Cosa dovrei farmene di sta roba ?"
+                            "testo": "Cosa dovrei farmene di sta roba?"
                         },
                         {
                             "personaggi": [
                                 "FRECCIA"
                             ],
-                            "testo": "Un piano a induzione di terz\u2019ultima generazione, marca \u201cBoscetti\u201d, comprensivo di due pentole e tre padelle antiaderenti; due moschetti italiani della 2\u00b0 guerra d\u2019indipendenza, di cui uno privo di grilletto, con relativa forca d\u2019appoggio per lo sparo \u2026"
+                            "testo": "Un piano a induzione di terz\u2019ultima generazione, marca \u201cBoscetti\u201d, comprensivo di due pentole e tre padelle antiaderenti; due moschetti italiani della 2\u00b0 guerra d\u2019indipendenza, di cui uno privo di grilletto, con relativa forca d\u2019appoggio per lo sparo\u2026"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Ma che cavolo c\u2019entro io \u2026?"
+                            "testo": "Ma che cavolo c\u2019entro io\u2026?"
                         },
                         {
                             "personaggi": [
                                 "FRECCIA"
                             ],
-                            "testo": "Inoltre: un chitarrone di provenienza bolognese, completo di quasi tutte le corde, un biliardino e un gioco dell\u2019oca simile a quello in uso presso gli Ittiti, ma pi\u00f9 moderno; un lucertolone impagliato della lunghezza di 80 cm quale gradevole e curioso oggetto da appendere al soffitto di una stanza \u2026"
+                            "testo": "Inoltre: un chitarrone di provenienza bolognese, completo di quasi tutte le corde, un biliardino e un gioco dell\u2019oca simile a quello in uso presso gli Ittiti, ma pi\u00f9 moderno; un lucertolone impagliato della lunghezza di 80 cm quale gradevole e curioso oggetto da appendere al soffitto di una stanza\u2026"
                         },
                         {
                             "personaggi": [
@@ -1586,8 +1586,8 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "CLEANTE",
-                        "FRECCIA"
+                        "FRECCIA",
+                        "CLEANTE"
                     ]
                 },
                 {
@@ -1603,7 +1603,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Ma voi non pensate, Mastro Simone, che sia una cosa un po\u2019 rischiosa ? Sapete come si chiama questo giovanotto ? E che famiglia \u00e8 \u2026 se hanno qualcosa?"
+                            "testo": "Ma voi non pensate, Mastro Simone, che sia una cosa un po\u2019 rischiosa? Sapete come si chiama questo giovanotto? E che famiglia \u00e8\u2026 se hanno qualcosa?"
                         },
                         {
                             "personaggi": [
@@ -1621,13 +1621,13 @@ const scriptData = {
                             "personaggi": [
                                 "FRECCIA"
                             ],
-                            "testo": "E questo che vuol dire ? Mastro Simone che parla con vostro padre ?!"
+                            "testo": "E questo che vuol dire? Mastro Simone che parla con vostro padre?!"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Che gli abbiano detto chi sono e che sia corso a tradirmi ?"
+                            "testo": "Che gli abbiano detto chi sono e che sia corso a tradirmi?"
                         },
                         {
                             "personaggi": [
@@ -1639,25 +1639,25 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Come, disgraziato ?!"
+                            "testo": "Come, disgraziato?!"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Come, pap\u00e0 ?!"
+                            "testo": "Come, pap\u00e0?!"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Sei tu che vuoi rovinarti con questi esecrabili debiti ?"
+                            "testo": "Sei tu che vuoi rovinarti con questi esecrabili debiti?"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Siete voi che volete arricchirvi con queste scellerate usure ?"
+                            "testo": "Siete voi che volete arricchirvi con queste scellerate usure?"
                         },
                         {
                             "personaggi": [
@@ -1669,13 +1669,13 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "E osi ancora, dopo questo, comparirmi davanti ?"
+                            "testo": "E osi ancora, dopo questo, comparirmi davanti?"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "E osate ancora, dopo questo, mostrare al mondo la faccia ?"
+                            "testo": "E osate ancora, dopo questo, mostrare al mondo la faccia?"
                         },
                         {
                             "personaggi": [
@@ -1699,19 +1699,19 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Chi \u00e8 pi\u00f9 criminale, ditemi voi: chi compra il denaro che gli \u00e8 necessario o chi ruba denaro di cui non sapr\u00e0 neanche che farsene ?"
+                            "testo": "Chi \u00e8 pi\u00f9 criminale, ditemi voi: chi compra il denaro che gli \u00e8 necessario o chi ruba denaro di cui non sapr\u00e0 neanche che farsene?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Via di qui, ho detto ! Al diavolo, se non altro servir\u00e0 a ricordarmi di tenere gli occhi ben aperti su tutto quello che fa."
+                            "testo": "Via di qui, ho detto! Al diavolo, se non altro servir\u00e0 a ricordarmi di tenere gli occhi ben aperti su tutto quello che fa."
                         }
                     ],
                     "personaggi": [
-                        "ARPAGONE",
                         "MASTRO SIMONE",
                         "CLEANTE",
+                        "ARPAGONE",
                         "FRECCIA"
                     ]
                 },
@@ -1722,7 +1722,7 @@ const scriptData = {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "Signor Arpagone \u2026"
+                            "testo": "Signor Arpagone\u2026"
                         },
                         {
                             "personaggi": [
@@ -1734,13 +1734,13 @@ const scriptData = {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "Guarda un po\u2019, il mio povero Freccia! Cosa fai da queste parti ?"
+                            "testo": "Guarda un po\u2019, il mio povero Freccia! Cosa fai da queste parti?"
                         },
                         {
                             "personaggi": [
                                 "FRECCIA"
                             ],
-                            "testo": "Guarda un po\u2019, la mia povera Frosina! Cosa ci fai tu da queste parti ?"
+                            "testo": "Guarda un po\u2019, la mia povera Frosina! Cosa ci fai tu da queste parti?"
                         },
                         {
                             "personaggi": [
@@ -1752,7 +1752,7 @@ const scriptData = {
                             "personaggi": [
                                 "FRECCIA"
                             ],
-                            "testo": "Hai in ballo qualche affare col padrone di casa ?"
+                            "testo": "Hai in ballo qualche affare col padrone di casa?"
                         },
                         {
                             "personaggi": [
@@ -1770,7 +1770,7 @@ const scriptData = {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "Ci sono certi servizi speciali che funzionano a meraviglia \u2026"
+                            "testo": "Ci sono certi servizi speciali che funzionano a meraviglia\u2026"
                         },
                         {
                             "personaggi": [
@@ -1786,8 +1786,8 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "ARPAGONE",
                         "FRECCIA",
+                        "ARPAGONE",
                         "FROSINA"
                     ]
                 },
@@ -1798,7 +1798,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "E allora, Frosina, cosa c\u2019\u00e8 ?"
+                            "testo": "E allora, Frosina, cosa c\u2019\u00e8?"
                         },
                         {
                             "personaggi": [
@@ -1810,7 +1810,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Chi, io ?"
+                            "testo": "Chi, io?"
                         },
                         {
                             "personaggi": [
@@ -1828,7 +1828,7 @@ const scriptData = {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "Eh beh ? \u00c8 il fiore dell\u2019et\u00e0, sessant\u2019anni: siete entrato nella stagione d\u2019oro del maschio . Voi siete di quelli impastati per vivere cent\u2019anni, lo dico io."
+                            "testo": "Eh beh? \u00c8 il fiore dell\u2019et\u00e0, sessant\u2019anni: siete entrato nella stagione d\u2019oro del maschio. Voi siete di quelli impastati per vivere cent\u2019anni, lo dico io."
                         },
                         {
                             "personaggi": [
@@ -1846,19 +1846,19 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Com\u2019\u00e8 ?"
+                            "testo": "Com\u2019\u00e8?"
                         },
                         {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "Non lo vedete dove va a finire ? Avevo detto cent\u2019anni, ma qui voi mi superate i centoventi."
+                            "testo": "Non lo vedete dove va a finire? Avevo detto cent\u2019anni, ma qui voi mi superate i centoventi."
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Possibile ?"
+                            "testo": "Possibile?"
                         },
                         {
                             "personaggi": [
@@ -1870,19 +1870,19 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Tanto meglio. I nostri affari come vanno ?"
+                            "testo": "Tanto meglio. I nostri affari come vanno?"
                         },
                         {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "C\u2019\u00e8 da chiederlo ? I matrimoni sono la mia specialit\u00e0. Le due donne le conoscevo gi\u00e0, ho parlato bene di voi sia all\u2019una che all\u2019altra; ho detto alla madre le idee che vi son venute sul conto di Marianna vedendola affacciata alla finestra \u2026"
+                            "testo": "C\u2019\u00e8 da chiederlo? I matrimoni sono la mia specialit\u00e0. Le due donne le conoscevo gi\u00e0, ho parlato bene di voi sia all\u2019una che all\u2019altra; ho detto alla madre le idee che vi son venute sul conto di Marianna vedendola affacciata alla finestra\u2026"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "\u2026 E la madre ha risposto ?"
+                            "testo": "\u2026 E la madre ha risposto?"
                         },
                         {
                             "personaggi": [
@@ -1906,43 +1906,43 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Ma, Frosina \u2026 parlando con la madre, hai provato a tirare in ballo la questione della dote ? Glielo hai detto che bisognerebbe che anche lei facesse un po\u2019 qualche sacrificio \u2026 per un\u2019occasione come questa? Perch\u00e9 non si pu\u00f2 pretendere di sposare una figlia che non porti almeno qualcosina in dote !"
+                            "testo": "Ma, Frosina\u2026 parlando con la madre, hai provato a tirare in ballo la questione della dote? Glielo hai detto che bisognerebbe che anche lei facesse un po\u2019 qualche sacrificio\u2026 per un\u2019occasione come questa? Perch\u00e9 non si pu\u00f2 pretendere di sposare una figlia che non porti almeno qualcosina in dote!"
                         },
                         {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "Come ?! Ma quella in dote vi porta 12.000 franchi di rendita all\u2019anno!"
+                            "testo": "Come?! Ma quella in dote vi porta 12.000 franchi di rendita all\u2019anno!"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "12000 franchi ?"
+                            "testo": "12000 franchi?"
                         },
                         {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "Ovvio! In primis la ragazza \u00e8 stata allevata e nutrita con grande risparmio. Va avanti a insalata, latte, formaggio e miele, di conseguenza non ha bisogno n\u00e9 di grandi tavole imbandite, n\u00e9 di brodini raffinati, n\u00e9 di tutte quelle squisitezze che per le altre donne sono indispensabili. E questo non \u00e8 che sia cosa da niente: almeno 3.000 franchi in un anno. Secondariamente ama vivere e vestire con grande semplicit\u00e0, non le piacciono n\u00e9 i vestiti di lusso, n\u00e9 i gioielli costosi, n\u00e9 i mobili sontuosi: altri 4.000 franchi all\u2019anno. Infine, cosa assai rara tra ledonne di oggi, ha un\u2019antipatia terribile per il gioco. Io ne conosco una che alla roulette quest\u2019anno ha perso 20.000 franchi \u2026 ma dividiamo pure per quattro: 5.000 franchi l\u2019anno per il gioco, 4.000 in abiti e gioielli, pi\u00f9 3.000 per risparmiato nutrimento fanno o non fanno una rendita di 12.000 franchi sull\u2019unghia ?"
+                            "testo": "Ovvio! In primis la ragazza \u00e8 stata allevata e nutrita con grande risparmio. Va avanti a insalata, latte, formaggio e miele, di conseguenza non ha bisogno n\u00e9 di grandi tavole imbandite, n\u00e9 di brodini raffinati, n\u00e9 di tutte quelle squisitezze che per le altre donne sono indispensabili. E questo non \u00e8 che sia cosa da niente: almeno 3.000 franchi in un anno. Secondariamente ama vivere e vestire con grande semplicit\u00e0, non le piacciono n\u00e9 i vestiti di lusso, n\u00e9 i gioielli costosi, n\u00e9 i mobili sontuosi: altri 4.000 franchi all\u2019anno. Infine, cosa assai rara tra ledonne di oggi, ha un\u2019antipatia terribile per il gioco. Io ne conosco una che alla roulette quest\u2019anno ha perso 20.000 franchi\u2026 ma dividiamo pure per quattro: 5.000 franchi l\u2019anno per il gioco, 4.000 in abiti e gioielli, pi\u00f9 3.000 per risparmiato nutrimento fanno o non fanno una rendita di 12.000 franchi sull\u2019unghia?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "S\u00ec \u2026 ma questi non sono soldi veri e propri."
+                            "testo": "S\u00ec\u2026 ma questi non sono soldi veri e propri."
                         },
                         {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "Scusate tanto, non sono soldi veri e propri portarvi in dote una grande parsimonia? Non \u00e8 pi\u00f9 di un bene immobile l\u2019odio per il gioco ?"
+                            "testo": "Scusate tanto, non sono soldi veri e propri portarvi in dote una grande parsimonia? Non \u00e8 pi\u00f9 di un bene immobile l\u2019odio per il gioco?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "A me sa di presa per il culo, dirmi che come dote mi porta i soldi che non spender\u00e0. Devo firmare la ricevuta ? Non ricevo tot franchi in dote \u2026 Bisogner\u00e0 pure ch\u2019io mi veda in mano qualcosa."
+                            "testo": "A me sa di presa per il culo, dirmi che come dote mi porta i soldi che non spender\u00e0. Devo firmare la ricevuta? Non ricevo tot franchi in dote\u2026 Bisogner\u00e0 pure ch\u2019io mi veda in mano qualcosa."
                         },
                         {
                             "personaggi": [
@@ -1954,7 +1954,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Bisogner\u00e0 vederle bene, queste propriet\u00e0. Ma c\u2019\u00e8 un\u2019altra cosa che mi preoccupa. Marianna \u00e8 molto giovane, come hai visto, e di solito i giovani amano solo i loro simili \u2026 Io ho paura che un uomo della mia et\u00e0 non sia poi tanto di suo gusto, e che questo fatto possa portarmi in casa certi piccoli inconvenienti che non mi piacerebbero tanto."
+                            "testo": "Bisogner\u00e0 vederle bene, queste propriet\u00e0. Ma c\u2019\u00e8 un\u2019altra cosa che mi preoccupa. Marianna \u00e8 molto giovane, come hai visto, e di solito i giovani amano solo i loro simili\u2026 Io ho paura che un uomo della mia et\u00e0 non sia poi tanto di suo gusto, e che questo fatto possa portarmi in casa certi piccoli inconvenienti che non mi piacerebbero tanto."
                         },
                         {
                             "personaggi": [
@@ -1978,7 +1978,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Solo per questo ?"
+                            "testo": "Solo per questo?"
                         },
                         {
                             "personaggi": [
@@ -2014,7 +2014,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Marianna mi ha gi\u00e0 visto ?"
+                            "testo": "Marianna mi ha gi\u00e0 visto?"
                         },
                         {
                             "personaggi": [
@@ -2032,7 +2032,7 @@ const scriptData = {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "Avrei una piccola preghiera, signore. Sono impegnata in un processo che, siccome non ho soldi, corro il rischio di perdere \u2026 ma voi potreste farmelo vincere facilmente se \u2026 Ah, quanto le piacerete! Adorer\u00e0 questi vostri abiti del secolo scorso \u2026 Davvero, signore, se perdo questo processo sono rovinata e basterebbe un piccolo aiuto per sistemarmi proprio per bene \u2026 Oh, come andava in estasi a sentir parlare di voi, la gioia che sprizzava dagli occhi ... Vi giuro, signore, mai come ora il vostro aiuto mi sarebbe prezioso, ve ne sar\u00f2 eternamente grata \u2026 Oh, se non sta pi\u00f9 nella pelle nel vedersi al vostro fianco con la fede al dito!"
+                            "testo": "Avrei una piccola preghiera, signore. Sono impegnata in un processo che, siccome non ho soldi, corro il rischio di perdere\u2026 ma voi potreste farmelo vincere facilmente se\u2026 Ah, quanto le piacerete! Adorer\u00e0 questi vostri abiti del secolo scorso\u2026 Davvero, signore, se perdo questo processo sono rovinata e basterebbe un piccolo aiuto per sistemarmi proprio per bene\u2026 Oh, come andava in estasi a sentir parlare di voi, la gioia che sprizzava dagli occhi... Vi giuro, signore, mai come ora il vostro aiuto mi sarebbe prezioso, ve ne sar\u00f2 eternamente grata\u2026 Oh, se non sta pi\u00f9 nella pelle nel vedersi al vostro fianco con la fede al dito!"
                         },
                         {
                             "personaggi": [
@@ -2044,7 +2044,7 @@ const scriptData = {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "Non rifiutatemi questa grazia che vi supplico \u2026"
+                            "testo": "Non rifiutatemi questa grazia che vi supplico\u2026"
                         },
                         {
                             "personaggi": [
@@ -2088,7 +2088,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Tutti qui, avanti! Distribuisco a ciascuno gli ordini per oggi. Signora Claudia , vedo che avete gi\u00e0 le armi in pugno: pulite bene dappertutto ma, mi raccomando, non spolverate i mobili con troppa foga, si consumano. Per la cena vi nomino comandante del settore bottiglie: se qualcuna sparisce o qualcosa si rompe, ne sarete responsabile e vi tratter\u00f2 il costo dallo stipendio."
+                            "testo": "Tutti qui, avanti! Distribuisco a ciascuno gli ordini per oggi. Signora Claudia, vedo che avete gi\u00e0 le armi in pugno: pulite bene dappertutto ma, mi raccomando, non spolverate i mobili con troppa foga, si consumano. Per la cena vi nomino comandante del settore bottiglie: se qualcuna sparisce o qualcosa si rompe, ne sarete responsabile e vi tratter\u00f2 il costo dallo stipendio."
                         },
                         {
                             "personaggi": [
@@ -2118,49 +2118,13 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Quanto a te, figlia mia, preparati a ricevere come si conviene la mia promessa sposa, hai capito ?"
-                        },
-                        {
-                            "personaggi": [
-                                "ELISA"
-                            ],
-                            "testo": "S\u00ec, pap\u00e0."
-                        },
-                        {
-                            "personaggi": [
-                                "ARPAGONE"
-                            ],
-                            "testo": "E tu, signor damerino, bada bene anche tu di non farle cattivo viso."
-                        },
-                        {
-                            "personaggi": [
-                                "CLEANTE"
-                            ],
-                            "testo": "Io, cattivo viso ? E perch\u00e9 mai ?"
-                        },
-                        {
-                            "personaggi": [
-                                "ARPAGONE"
-                            ],
-                            "testo": "Andiamo, si sa benissimo come si comportano i figli con i padri che si risposano e con che occhio guardano quella che si usa chiamare matrigna. Se davvero vuoi che perdoni e dimentichi la tua ultima bravata, falle innanzitutto bella cera e accoglila con tutta la gentilezza che ti sar\u00e0 possibile."
-                        },
-                        {
-                            "personaggi": [
-                                "CLEANTE"
-                            ],
-                            "testo": "Mentirei se vi dicessi che sono contento di vederla diventare la mia matrigna. Ma quanto ad accoglierla gentilmente e farle bella cera, no probleMASTRO"
-                        },
-                        {
-                            "personaggi": [
-                                "ARPAGONE"
-                            ],
-                            "testo": "Comunque stacci attento. Andate, voi! A pi\u00f9 tardi. Valerio, qui avr\u00f2 bisogno del tuo aiuto: Mastro Giacomo, vi ho tenuto per ultimo."
+                            "testo": "Andate, a pi\u00f9 tardi. Valerio, qui avr\u00f2 bisogno del tuo aiuto: Mastro Giacomo, vi ho tenuto per ultimo."
                         },
                         {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "\u00c8 al cocchiere che volete parlare, signore, o al cuoco ? Perch\u00e9 io sono l\u2019uno e l\u2019altro."
+                            "testo": "\u00c8 al cocchiere che volete parlare, signore, o al cuoco? Perch\u00e9 io sono l\u2019uno e l\u2019altro."
                         },
                         {
                             "personaggi": [
@@ -2172,7 +2136,7 @@ const scriptData = {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Ma a quale per primo ?"
+                            "testo": "Ma a quale per primo?"
                         },
                         {
                             "personaggi": [
@@ -2202,7 +2166,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Hai intenzione di trattarci bene ?"
+                            "testo": "Hai intenzione di trattarci bene?"
                         },
                         {
                             "personaggi": [
@@ -2214,7 +2178,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "I soldi \u2026 Sempre i soldi! Sembra che nessuno sappia dir altro: soldi, soldi, soldi \u00bb \u00c8 il loro cavallo di battaglia, il pezzo forte, il ritornello preferito: i soldi!"
+                            "testo": "I soldi\u2026 Sempre i soldi! Sembra che nessuno sappia dir altro: soldi, soldi, soldi \u00bb \u00c8 il loro cavallo di battaglia, il pezzo forte, il ritornello preferito: i soldi!"
                         },
                         {
                             "personaggi": [
@@ -2262,7 +2226,7 @@ const scriptData = {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "In quanti sarete a tavola ?"
+                            "testo": "In quanti sarete a tavola?"
                         },
                         {
                             "personaggi": [
@@ -2274,7 +2238,7 @@ const scriptData = {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Molto bene. Entr\u00e9es: animelle di vitello, budino in bianco e funghetti. Poi quattro belle minestre \u2026"
+                            "testo": "Molto bene. Entr\u00e9es: animelle di vitello, budino in bianco e funghetti. Poi quattro belle minestre\u2026"
                         },
                         {
                             "personaggi": [
@@ -2298,13 +2262,13 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Ma volete far morire tutti quanti di indigestione ? Il signor Arpagone ha forse invitato gente a cena per assassinarli ingozzandoli come oche? Andare a chiedere ai medici se esiste niente di pi\u00f9 pericoloso per l\u2019uomo che il mangiare in eccesso. Sappiate, Mastro Giacomo, che a tavola deve regnare la frugalit\u00e0: si mangia per vivere e non si vive per mangiare."
+                            "testo": "Ma volete far morire tutti quanti di indigestione? Il signor Arpagone ha forse invitato gente a cena per assassinarli ingozzandoli come oche? Andare a chiedere ai medici se esiste niente di pi\u00f9 pericoloso per l\u2019uomo che il mangiare in eccesso. Sappiate, Mastro Giacomo, che a tavola deve regnare la frugalit\u00e0: si mangia per vivere e non si vive per mangiare."
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Ah, che sagge parole! Avvicinati, ch\u2019io ti abbracci! Ecco la pi\u00f9 bella massima che abbia mai sentito in vita mia: si vive per mangiare e non si mangia \u2026 No, aspetta, com\u2019\u00e8 che hai detto?"
+                            "testo": "Ah, che sagge parole! Avvicinati, ch\u2019io ti abbracci! Ecco la pi\u00f9 bella massima che abbia mai sentito in vita mia: si vive per mangiare e non si mangia\u2026 No, aspetta, com\u2019\u00e8 che hai detto?"
                         },
                         {
                             "personaggi": [
@@ -2358,13 +2322,13 @@ const scriptData = {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Un momento. Questo \u00e8 di competenza del cocchiere. Dicevate ?"
+                            "testo": "Un momento. Questo \u00e8 di competenza del cocchiere. Dicevate?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Bisogna pulire la carrozza e preparare i cavalli \u2026"
+                            "testo": "Bisogna pulire la carrozza e preparare i cavalli\u2026"
                         },
                         {
                             "personaggi": [
@@ -2476,12 +2440,10 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "CLAUDIA",
                         "VALERIO",
-                        "ELISA",
-                        "ARPAGONE",
+                        "CLAUDIA",
                         "MASTRO GIACOMO",
-                        "CLEANTE"
+                        "ARPAGONE"
                     ]
                 },
                 {
@@ -2515,7 +2477,7 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Ehi, piano \u2026"
+                            "testo": "Ehi, piano\u2026"
                         },
                         {
                             "personaggi": [
@@ -2527,7 +2489,7 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Calma \u2026"
+                            "testo": "Calma\u2026"
                         },
                         {
                             "personaggi": [
@@ -2539,7 +2501,7 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Mastro Giacomo \u2026"
+                            "testo": "Mastro Giacomo\u2026"
                         },
                         {
                             "personaggi": [
@@ -2563,19 +2525,19 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Voi mi spianate la schiena ?"
+                            "testo": "Voi mi spianate la schiena?"
                         },
                         {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Scherzavo ..."
+                            "testo": "Scherzavo..."
                         },
                         {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Lo sai chi sono io ? Sono io che ti spacco la schiena."
+                            "testo": "Lo sai chi sono io? Sono io che ti spacco la schiena."
                         },
                         {
                             "personaggi": [
@@ -2597,8 +2559,8 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "VALERIO",
-                        "MASTRO GIACOMO"
+                        "MASTRO GIACOMO",
+                        "VALERIO"
                     ]
                 },
                 {
@@ -2638,13 +2600,13 @@ const scriptData = {
                             "personaggi": [
                                 "MARIANNA"
                             ],
-                            "testo": "E me lo domandi ? Non puoi immaginarli anche tu i timori di una persona che tra poco si trover\u00e0 di fronte al supplizio che le si vuole infliggere ?"
+                            "testo": "E me lo domandi? Non puoi immaginarli anche tu i timori di una persona che tra poco si trover\u00e0 di fronte al supplizio che le si vuole infliggere?"
                         },
                         {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "Posso immaginare che per morire di una dolce morte, Arpagone non sia il supplizio che preferireste abbracciare \u2026 e che per questo piuttosto preferireste quel bel moretto di cui mi avete parlato."
+                            "testo": "Posso immaginare che per morire di una dolce morte, Arpagone non sia il supplizio che preferireste abbracciare\u2026 e che per questo piuttosto preferireste quel bel moretto di cui mi avete parlato."
                         },
                         {
                             "personaggi": [
@@ -2656,7 +2618,7 @@ const scriptData = {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "Ma siete poi riuscita a sapere qualcosa di lui ?"
+                            "testo": "Ma siete poi riuscita a sapere qualcosa di lui?"
                         },
                         {
                             "personaggi": [
@@ -2674,7 +2636,7 @@ const scriptData = {
                             "personaggi": [
                                 "MARIANNA"
                             ],
-                            "testo": "Dio mio, Frosina, non \u00e8 tanto bello che per essere felici ci si debba augurare, o anche solo aspettare, che qualcuno muoia ! E poi non sempre la morte si adegua ai nostri piani."
+                            "testo": "Dio mio, Frosina, non \u00e8 tanto bello che per essere felici ci si debba augurare, o anche solo aspettare, che qualcuno muoia! E poi non sempre la morte si adegua ai nostri piani."
                         },
                         {
                             "personaggi": [
@@ -2690,8 +2652,8 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "MASTRO GIACOMO",
                         "MARIANNA",
+                        "MASTRO GIACOMO",
                         "FROSINA"
                     ]
                 },
@@ -2702,13 +2664,13 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Non vi sia d\u2019offesa, bella Marianna, ch\u2019io venga a voi munito di questi occhiali. So che le vostre bellezze balzano agli occhi fin troppo bene, visibili di per s\u00e9 sole, e che non v\u2019\u00e8 bisogno di occhiali onde notarle; ma \u00e8 anche vero che con gli occhiali meglio si osservano gli astri e io dico e sostengo che voi siete un astro, ma un astro che \u00e8 il pi\u00f9 bell\u2019astro nel regno degli astri. Frosina, non dice una parola \u2026 non mi pare dimostri tutta \u2018sta gioia di vedermi."
+                            "testo": "Non vi sia d\u2019offesa, bella Marianna, ch\u2019io venga a voi munito di questi occhiali. So che le vostre bellezze balzano agli occhi fin troppo bene, visibili di per s\u00e9 sole, e che non v\u2019\u00e8 bisogno di occhiali onde notarle; ma \u00e8 anche vero che con gli occhiali meglio si osservano gli astri e io dico e sostengo che voi siete un astro, ma un astro che \u00e8 il pi\u00f9 bell\u2019astro nel regno degli astri. Frosina, non dice una parola\u2026 non mi pare dimostri tutta \u2018sta gioia di vedermi."
                         },
                         {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "\u00c8 ancora sotto shock \u2026 e poi una ragazza si vergogna a mostrare subito quel che ha nel cuore."
+                            "testo": "\u00c8 ancora sotto shock\u2026 e poi una ragazza si vergogna a mostrare subito quel che ha nel cuore."
                         },
                         {
                             "personaggi": [
@@ -2744,7 +2706,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Che dice questa bellissima ?"
+                            "testo": "Che dice questa bellissima?"
                         },
                         {
                             "personaggi": [
@@ -2802,9 +2764,9 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "ARPAGONE",
                         "ELISA",
                         "MARIANNA",
+                        "ARPAGONE",
                         "FROSINA"
                     ]
                 },
@@ -2815,43 +2777,31 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Marianna, quali sono le tue decisioni ?"
+                            "testo": "Marianna, quali sono le tue decisioni?"
                         },
                         {
                             "personaggi": [
                                 "MARIANNA"
                             ],
-                            "testo": "Oddio, sono forse in grado di prendere decisioni, io ? Nello stato di soggezione in cui mi trovo che altro posso fare se non sperare ?"
+                            "testo": "Oddio, sono forse in grado di prendere decisioni, io? Nello stato di soggezione in cui mi trovo che altro posso fare se non sperare?"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "E io, nel tuo cuore, non ho altri appigli che semplici speranze ? Nessuna compassione che ti spinga ad agire? Nessuna affetto che ti muova a ribellarti ?"
+                            "testo": "E io, nel tuo cuore, non ho altri appigli che semplici speranze? Nessuna compassione che ti spinga ad agire? Nessuna affetto che ti muova a ribellarti?"
                         },
                         {
                             "personaggi": [
                                 "MARIANNA"
                             ],
-                            "testo": "Cosa vuoi che faccia, avanti ? Mettiti al mio posto, e dimmi quel che posso fare, perch\u00e9 ti ritengo troppo ragionevole per pretendere da me cose che mi son vietate dall\u2019onore e dalle convenienze. Quand\u2019anche potessi passare sopra a tutti gli scrupoli cui una donna \u00e8 tenuta, ti ricordo che devo pur sempre preoccuparmi di mia madre: mai avrei il coraggio di darle un dispiacere. Datti da fare tu! Agisci sul suo cuore: potrai dire e fare tutto ci\u00f2 che vorrai, io te ne do il permesso. E se sar\u00e0 necessario infine ch\u2019io mi dichiari in tuo favore, lo far\u00f2. Confesser\u00f2 tutto quello che sento per te, Cleante"
+                            "testo": "Cosa vuoi che faccia, avanti? Mettiti al mio posto, e dimmi quel che posso fare, perch\u00e9 ti ritengo troppo ragionevole per pretendere da me cose che mi son vietate dall\u2019onore e dalle convenienze. Quand\u2019anche potessi passare sopra a tutti gli scrupoli cui una donna \u00e8 tenuta, ti ricordo che devo pur sempre preoccuparmi di mia madre: mai avrei il coraggio di darle un dispiacere. Datti da fare tu! Agisci sul suo cuore: potrai dire e fare tutto ci\u00f2 che vorrai, io te ne do il permesso. E se sar\u00e0 necessario infine ch\u2019io mi dichiari in tuo favore, lo far\u00f2. Confesser\u00f2 tutto quello che sento per te, Cleante"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Signorina, sar\u00f2 sincero: mai mi sarei aspettato di trovarmi in una simile situazione."
-                        },
-                        {
-                            "personaggi": [
-                                "MARIANNA"
-                            ],
-                            "testo": "Altrettanto, signore, posso dire di me stessa."
-                        },
-                        {
-                            "personaggi": [
-                                "CLEANTE"
-                            ],
-                            "testo": "\u00c8 pur vero che mio padre non poteva compiere una scelta migliore e per me \u00e8 una grande gioia aver l\u2019onore di vedervi. Ciononostante non posso esprimervi che la mia ripugnanza di vedervi diventare mia matrigna. Se le cose dipendessero da me, queste nozze non si farebbero affatto."
+                            "testo": "Signorina, sar\u00f2 sincero: mio padre non poteva compiere una scelta migliore e per me \u00e8 una grande gioia aver l\u2019onore di vedervi. Ciononostante non posso esprimervi che la mia ripugnanza di vedervi diventare mia matrigna. Se le cose dipendessero da me, queste nozze non si farebbero affatto."
                         },
                         {
                             "personaggi": [
@@ -2893,7 +2843,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Insisti ?"
+                            "testo": "Insisti?"
                         },
                         {
                             "personaggi": [
@@ -2905,7 +2855,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Ancora?! Vuoi cambiare discorso ?"
+                            "testo": "Ancora?! Vuoi cambiare discorso?"
                         },
                         {
                             "personaggi": [
@@ -2935,61 +2885,37 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Avete mai visto, Marianna, un brillante pi\u00f9 bello di quello al dito di mio padre?"
+                            "testo": "Uh! E questo meraviglioso brillante \u00e8 un dono che mio padre vi fa."
                         },
                         {
                             "personaggi": [
                                 "MARIANNA"
                             ],
-                            "testo": "\u00c8 vero, ha una splendida luce."
-                        },
-                        {
-                            "personaggi": [
-                                "CLEANTE"
-                            ],
-                            "testo": "Oh, dovete vederlo da vicino."
-                        },
-                        {
-                            "personaggi": [
-                                "MARIANNA"
-                            ],
-                            "testo": "\u00c8 indubbiamente bellissimo \u2026"
-                        },
-                        {
-                            "personaggi": [
-                                "CLEANTE"
-                            ],
-                            "testo": "\u00c8 un dono che mio padre vi fa."
+                            "testo": "Oddio!"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Io ?"
+                            "testo": "Cosa?"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Non \u00e8 vero che desiderate che la signorina lo conservi per amor vostro ?"
+                            "testo": "Non \u00e8 vero che desiderate che la signorina lo conservi per amor vostro?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Come?"
+                            "testo": "Io?"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
                             "testo": "Bella domanda! Mi fa segno di farvelo avere."
-                        },
-                        {
-                            "personaggi": [
-                                "MARIANNA"
-                            ],
-                            "testo": "Ma io non voglio \u2026"
                         },
                         {
                             "personaggi": [
@@ -3005,81 +2931,51 @@ const scriptData = {
                         },
                         {
                             "personaggi": [
-                                "CLEANTE"
+                                "MARIANNA"
                             ],
-                            "testo": "Scherzate ? Non lo rivuole assolutamente."
+                            "testo": "Oh, \u00e8 bellissimo... Ma io non voglio\u2026"
+                        },
+                        {
+                            "personaggi": [
+                                "ELISA"
+                            ],
+                            "testo": "Scherzate? Non lo rivuole assolutamente."
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Maledetto \u2026"
+                            "testo": "Maledetti\u2026"
+                        },
+                        {
+                            "personaggi": [
+                                "CLEANTE"
+                            ],
+                            "testo": "Si offenderebbe."
                         },
                         {
                             "personaggi": [
                                 "MARIANNA"
                             ],
-                            "testo": "Sarebbe \u2026"
+                            "testo": "Per piacere\u2026"
+                        },
+                        {
+                            "personaggi": [
+                                "ARPAGONE"
+                            ],
+                            "testo": "Che il canchero\u2026"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Vi dico che si offenderebbe."
+                            "testo": "Pap\u00e0, io faccio il possibile per convincerla a tenerselo, ma la signorina \u00e8 ostinata."
                         },
                         {
                             "personaggi": [
                                 "MARIANNA"
                             ],
-                            "testo": "Per piacere \u2026"
-                        },
-                        {
-                            "personaggi": [
-                                "CLEANTE"
-                            ],
-                            "testo": "Assolutamente no."
-                        },
-                        {
-                            "personaggi": [
-                                "ARPAGONE"
-                            ],
-                            "testo": "Che il canchero \u2026"
-                        },
-                        {
-                            "personaggi": [
-                                "CLEANTE"
-                            ],
-                            "testo": "Non vedete come lo rattrista il vostro rifiuto ?"
-                        },
-                        {
-                            "personaggi": [
-                                "ARPAGONE"
-                            ],
-                            "testo": "Traditore!"
-                        },
-                        {
-                            "personaggi": [
-                                "CLEANTE"
-                            ],
-                            "testo": "\u00c8 disperato."
-                        },
-                        {
-                            "personaggi": [
-                                "ARPAGONE"
-                            ],
-                            "testo": "Assassino! Boia!"
-                        },
-                        {
-                            "personaggi": [
-                                "CLEANTE"
-                            ],
-                            "testo": "Pap\u00e0, non \u00e8 colpa mia. Io faccio il possibile per convincerla a tenerselo, ma la signorina \u00e8 ostinata."
-                        },
-                        {
-                            "personaggi": [
-                                "MARIANNA"
-                            ],
-                            "testo": "Veramente io \u2026 certo, \u00e8 splendido \u2026"
+                            "testo": "Veramente io\u2026 certo, \u00e8 splendido\u2026"
                         },
                         {
                             "personaggi": [
@@ -3097,13 +2993,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Figlio di \u2026"
-                        },
-                        {
-                            "personaggi": [
-                                "CLEANTE"
-                            ],
-                            "testo": "Lo farete ammalare. Vi prego, non ostinatevi."
+                            "testo": "Figlio di\u2026"
                         },
                         {
                             "personaggi": [
@@ -3115,33 +3005,33 @@ const scriptData = {
                             "personaggi": [
                                 "MARIANNA"
                             ],
-                            "testo": "Bene, lo terr\u00f2. Per ora. E trover\u00f2 un altro momento per restituirvelo."
+                            "testo": "Bene, lo terr\u00f2. Vi sono molto obbligata, signore."
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Permettete, signorina ?"
-                        },
-                        {
-                            "personaggi": [
-                                "CLAUDIA"
-                            ],
-                            "testo": "Signore, la carrozza \u00e8 pronta."
+                            "testo": "Permettete, signorina?"
                         }
                     ],
                     "personaggi": [
-                        "CLAUDIA",
-                        "VALERIO",
-                        "MARIANNA",
-                        "ARPAGONE",
+                        "CLEANTE",
                         "FROSINA",
-                        "CLEANTE"
+                        "VALERIO",
+                        "ELISA",
+                        "ARPAGONE",
+                        "MARIANNA"
                     ]
                 },
                 {
                     "titolo": "Scena sesta",
                     "battute": [
+                        {
+                            "personaggi": [
+                                "CLAUDIA"
+                            ],
+                            "testo": "Signore, la carrozza \u00e8 pronta."
+                        },
                         {
                             "personaggi": [
                                 "CLEANTE"
@@ -3158,49 +3048,37 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Cosa me ne pare \u2026?"
+                            "testo": "Cosa me ne pare\u2026?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "S\u00ec. L\u2019apparenza, la bellezza, lo spirito."
+                            "testo": "S\u00ec. "
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Beh \u2026"
+                            "testo": "Ad essere sincero, pap\u00e0, non un granch\u00e9. Mediocre, molto banale. Poi, sia chiaro: matrigna per matrigna, per me \u00e8 uguale."
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Sarebbe a dire ?"
+                            "testo": "Poco fa per\u00f2 le dicevi\u2026"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Ad essere sincero, pap\u00e0, non un granch\u00e9. All\u2019apparenza \u00e8 senz\u2019altro una civetta, la bellezza \u00e8 mediocre, lo spirito molto banale. Poi, sia chiaro: matrigna per matrigna, per me \u00e8 uguale."
+                            "testo": "Era solo per fare un piacere a voi."
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Poco fa per\u00f2 le dicevi \u2026"
-                        },
-                        {
-                            "personaggi": [
-                                "CLEANTE"
-                            ],
-                            "testo": "Ho messo l\u00ec qualche galanteria a nome vostro, per fare un piacere a voi."
-                        },
-                        {
-                            "personaggi": [
-                                "ARPAGONE"
-                            ],
-                            "testo": "Non \u00e8 che per caso hai qualche simpatia per lei ?"
+                            "testo": "Non \u00e8 che per caso hai qualche simpatia per lei?"
                         },
                         {
                             "personaggi": [
@@ -3212,13 +3090,13 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Peccato. Sai, vedendola ora, ho riflettuto sulla mia et\u00e0 \u2026 ho pensato \u201cChiss\u00e0 cosa dir\u00e0 la gente a vedermi sposare una ragazza cos\u00ec giovane\u201d\u2026 E soprattutto questo mi ha convinto a rinunciare all\u2019idea; ma siccome ho gi\u00e0 chiesto la sua mano e impegnato la mia parola, mi era venuta l\u2019idea di proportela. Certo, se ti sta cos\u00ec antipatica \u2026"
+                            "testo": "Peccato. Sai, vedendola ora, ho riflettuto sulla mia et\u00e0\u2026 ho pensato \u201cChiss\u00e0 cosa dir\u00e0 la gente a vedermi sposare una ragazza cos\u00ec giovane\u201d\u2026 E soprattutto questo mi ha convinto a rinunciare all\u2019idea; ma siccome ho gi\u00e0 chiesto la sua mano e impegnato la mia parola, mi era venuta l\u2019idea di proportela. Certo, se ti sta cos\u00ec antipatica\u2026"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Propormela \u2026 a me?"
+                            "testo": "Propormela\u2026 a me?"
                         },
                         {
                             "personaggi": [
@@ -3254,7 +3132,7 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "L\u2019amore verr\u00e0 in seguito. \u00c8 un frutto del matrimonio, si dice cos\u00ec, no ?"
+                            "testo": "L\u2019amore verr\u00e0 in seguito. \u00c8 un frutto del matrimonio, si dice cos\u00ec, no?"
                         },
                         {
                             "personaggi": [
@@ -3272,7 +3150,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Sei stato a casa sua ?"
+                            "testo": "Sei stato a casa sua?"
                         },
                         {
                             "personaggi": [
@@ -3284,49 +3162,25 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Quante volte ?"
+                            "testo": "Ti sei gi\u00e0 dichiarato con lei?"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Parecchie."
+                            "testo": "Certo, e lo stesso discorso avevo avviato con sua madre."
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Ti sei gi\u00e0 dichiarato con lei ?"
+                            "testo": "E Marianna ricambia i tuoi sentimenti?"
                         },
                         {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Certo, e lo stesso discorso avevo avviato con sua madre. Ma nessuno sapeva chi ero ed \u00e8 stato questo a causare poco fa la sorpresa di Marianna."
-                        },
-                        {
-                            "personaggi": [
-                                "ARPAGONE"
-                            ],
-                            "testo": "E la madre ha accolto bene la proposta per sua figlia? "
-                        },
-                        {
-                            "personaggi": [
-                                "CLEANTE"
-                            ],
-                            "testo": "S\u00ec, con molta cortesia."
-                        },
-                        {
-                            "personaggi": [
-                                "ARPAGONE"
-                            ],
-                            "testo": "E la figlia ricambia i tuoi sentimenti ?"
-                        },
-                        {
-                            "personaggi": [
-                                "CLEANTE"
-                            ],
-                            "testo": "Beh \u2026 Direi proprio che nutre qualche bont\u00e0 nei miei riguardi."
+                            "testo": "Beh\u2026 Direi proprio che nutre qualche bont\u00e0 nei miei riguardi."
                         },
                         {
                             "personaggi": [
@@ -3338,7 +3192,7 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Che bravo, pap\u00e0! Ottima beffa! E io vi dichiaro che non rinuncer\u00f2 mai all\u2019amore di Marianna, che non lascer\u00f2 nulla di intentato per contendervi la sua conquista e che se voi avete dalla vostra parte il consenso di sua madre, io ho altri alleati che combatteranno per me."
+                            "testo": "Che bravo, pap\u00e0! Ottima beffa! E io vi dichiaro che non rinuncer\u00f2 mai all\u2019amore di Marianna, che non lascer\u00f2 nulla di intentato per contendervi la sua conquista."
                         },
                         {
                             "personaggi": [
@@ -3356,7 +3210,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "E io sono tuo padre. E il rispetto che mi devi ?"
+                            "testo": "E io sono tuo padre. E il rispetto che mi devi?"
                         },
                         {
                             "personaggi": [
@@ -3408,24 +3262,6 @@ const scriptData = {
                         },
                         {
                             "personaggi": [
-                                "CLEANTE"
-                            ],
-                            "testo": "Tutto quel che volete."
-                        },
-                        {
-                            "personaggi": [
-                                "ARPAGONE"
-                            ],
-                            "testo": "E ti do la mia maledizione!"
-                        },
-                        {
-                            "personaggi": [
-                                "CLEANTE"
-                            ],
-                            "testo": "Un regalo! Tenetevelo."
-                        },
-                        {
-                            "personaggi": [
                                 "ARPAGONE"
                             ],
                             "testo": "Oh mio Dio! Oh, mio Dio! Al ladro! Non muoverti da qui, tu! Il mio tesoro!!!"
@@ -3434,7 +3270,7 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Padre \u2026"
+                            "testo": "Padre\u2026"
                         },
                         {
                             "personaggi": [
@@ -3458,7 +3294,7 @@ const scriptData = {
                             "personaggi": [
                                 "CLEANTE"
                             ],
-                            "testo": "Ma come hai fatto ?"
+                            "testo": "Ma come hai fatto?"
                         },
                         {
                             "personaggi": [
@@ -3470,13 +3306,14 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Al ladro! Al ladro! All\u2019assassino! Sono rovinato, assassinato, mi hanno pugnalato alla gola, mi hanno rubato i miei soldi. Chi \u00e8 stato ? Dov\u2019\u00e8 andato? Dov\u2019\u00e8 ? Dove si nasconde ? Che sia di l\u00e0 ? Che sia di qua ? Chi c\u2019\u00e8 ? Alto l\u00e0! Restituiscimi i miei soldi, furfante! Ah, sono io. Non so pi\u00f9 dove sono, chi sono, cosa faccio. I miei soldi \u2026 miei poveri soldi, miei unici amici! Mio conforto, mia consolazione, mia gioia! Senza di voi tutto \u00e8 finito, non ho pi\u00f9 nulla da fare, nulla per cui vivere. \u00c8 finita, non ne posso pi\u00f9: sto morendo, sono morto, sono gi\u00e0 sottoterra. Non c\u2019\u00e8 nessuno qui che voglia farmi risuscitare, restituendomi i miei cari soldi ? O dicendomi almeno chi li ha presi ? Eh ? Cosa avete detto ? Non \u00e8 stato nessuno? Chiunque sia stato deve avermi spiato per bene e ha scelto giusto il momento in cui stavo parlando con quella carogna di mio figlio. Guarda quanta gente che c\u2019\u00e8! Di ciascuno penso \u201cEccolo il ladro!\u201d Ehi, qualcuno l\u00ec in fondo ha detto qualcosa ? E l\u00e0, cos\u2019era quel rumore? Avete trovato il ladro? Qualsiasi sospetto, qualsiasi notizia utile, qualsiasi indizio ditemelo! Tutti che mi guardano e ridono. Certo: tutti complici! Sia fatta giustizia! Polizia, gendarmi, prefetti, giudici, forche e carnefici, mettere subito alla tortura tutti quelli che abitano in questa casa: cameriera, servi, figlio, figlia, e anche me. Giuro, vi far\u00f2 impiccare tutti quanti e se non ritrovo i miei soldi, mi impicco anch\u2019io con le mie mani."
+                            "testo": "Al ladro! Al ladro! All\u2019assassino! Sono rovinato, assassinato, mi hanno pugnalato alla gola, mi hanno rubato i miei soldi. Chi \u00e8 stato? Dov\u2019\u00e8 andato? Dov\u2019\u00e8? Dove si nasconde? Che sia di l\u00e0? Che sia di qua? Chi c\u2019\u00e8? Alto l\u00e0! Restituiscimi i miei soldi, furfante! Ah, sono io. Non so pi\u00f9 dove sono, chi sono, cosa faccio. I miei soldi\u2026 miei poveri soldi, miei unici amici! Mio conforto, mia consolazione, mia gioia! Senza di voi tutto \u00e8 finito, non ho pi\u00f9 nulla da fare, nulla per cui vivere. \u00c8 finita, non ne posso pi\u00f9: sto morendo, sono morto, sono gi\u00e0 sottoterra. Non c\u2019\u00e8 nessuno qui che voglia farmi risuscitare, restituendomi i miei cari soldi? O dicendomi almeno chi li ha presi? Eh? Cosa avete detto? Non \u00e8 stato nessuno? Chiunque sia stato deve avermi spiato per bene e ha scelto giusto il momento in cui stavo parlando con quella carogna di mio figlio. Guarda quanta gente che c\u2019\u00e8! Di ciascuno penso \u201cEccolo il ladro!\u201d Ehi, qualcuno l\u00ec in fondo ha detto qualcosa? E l\u00e0, cos\u2019era quel rumore? Avete trovato il ladro? Qualsiasi sospetto, qualsiasi notizia utile, qualsiasi indizio ditemelo! Tutti che mi guardano e ridono. Certo: tutti complici! Sia fatta giustizia! Polizia, gendarmi, prefetti, giudici, forche e carnefici, mettere subito alla tortura tutti quelli che abitano in questa casa: cameriera, servi, figlio, figlia, e anche me. Giuro, vi far\u00f2 impiccare tutti quanti e se non ritrovo i miei soldi, mi impicco anch\u2019io con le mie mani."
                         }
                     ],
                     "personaggi": [
-                        "ARPAGONE",
+                        "FRECCIA",
+                        "CLAUDIA",
                         "CLEANTE",
-                        "FRECCIA"
+                        "ARPAGONE"
                     ]
                 }
             ],
@@ -3491,7 +3328,7 @@ const scriptData = {
                             "personaggi": [
                                 "COMMISSARIO"
                             ],
-                            "testo": "Penso a tutto io. A Dio piacendo, conosco il mio mestiere: non \u00e8 da ieri che mi occupo di smascherare ladri e spedirli sulla forca. Dunque, in questa cassetta, dite voi, c\u2019erano \u2026 ?"
+                            "testo": "Penso a tutto io. A Dio piacendo, conosco il mio mestiere: non \u00e8 da ieri che mi occupo di smascherare ladri e spedirli sulla forca. Dunque, in questa cassetta, dite voi, c\u2019erano\u2026?"
                         },
                         {
                             "personaggi": [
@@ -3515,7 +3352,7 @@ const scriptData = {
                             "personaggi": [
                                 "COMMISSARIO"
                             ],
-                            "testo": "Hai sentito ? Un furto di notevole entit\u00e0."
+                            "testo": "Hai sentito? Un furto di notevole entit\u00e0."
                         },
                         {
                             "personaggi": [
@@ -3527,7 +3364,7 @@ const scriptData = {
                             "personaggi": [
                                 "COMMISSARIO"
                             ],
-                            "testo": "E la somma era composta di \u2026 ?"
+                            "testo": "E la somma era composta di\u2026?"
                         },
                         {
                             "personaggi": [
@@ -3539,7 +3376,7 @@ const scriptData = {
                             "personaggi": [
                                 "COMMISSARIO"
                             ],
-                            "testo": "Prendi nota. E sospettate di qualcuno ?"
+                            "testo": "Prendi nota. E sospettate di qualcuno?"
                         },
                         {
                             "personaggi": [
@@ -3563,7 +3400,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Chi? Il ladro ?"
+                            "testo": "Chi? Il ladro?"
                         },
                         {
                             "personaggi": [
@@ -3581,7 +3418,7 @@ const scriptData = {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Volete parlare col cuoco o l\u2019autista ?"
+                            "testo": "Volete parlare col cuoco o l\u2019autista?"
                         },
                         {
                             "personaggi": [
@@ -3593,19 +3430,19 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Io ?"
+                            "testo": "Io?"
                         },
                         {
                             "personaggi": [
                                 "COMMISSARIO"
                             ],
-                            "testo": "Voi, cosa ?"
+                            "testo": "Voi, cosa?"
                         },
                         {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Il signore si ferma a cena ?"
+                            "testo": "Il signore si ferma a cena?"
                         },
                         {
                             "personaggi": [
@@ -3647,19 +3484,19 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Cosa ?"
+                            "testo": "Cosa?"
                         },
                         {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Davvero, signore ?"
+                            "testo": "Davvero, signore?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Cosa ?? Signor commissario, io non ho mai detto \u2026"
+                            "testo": "Cosa?? Signor commissario, io non ho mai detto\u2026"
                         },
                         {
                             "personaggi": [
@@ -3671,7 +3508,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Ma con chi sta parlando ?"
+                            "testo": "Ma con chi sta parlando?"
                         },
                         {
                             "personaggi": [
@@ -3689,7 +3526,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Valerio ?"
+                            "testo": "Valerio?"
                         },
                         {
                             "personaggi": [
@@ -3713,13 +3550,13 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "E in base a cosa lo credi ?"
+                            "testo": "E in base a cosa lo credi?"
                         },
                         {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Eh, lo credo \u2026 in base a quel che credo."
+                            "testo": "Eh, lo credo\u2026 in base a quel che credo."
                         },
                         {
                             "personaggi": [
@@ -3731,13 +3568,13 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Per caso l\u2019hai visto ronzare attorno ai miei soldi ?"
+                            "testo": "Per caso l\u2019hai visto ronzare attorno ai miei soldi?"
                         },
                         {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Proprio cos\u00ec, dov\u2019erano i vostri soldi ?"
+                            "testo": "Proprio cos\u00ec, dov\u2019erano i vostri soldi?"
                         },
                         {
                             "personaggi": [
@@ -3755,13 +3592,13 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "E questa cassetta com\u2019era fatta ? Cos\u00ec vediamo se \u00e8 la mia."
+                            "testo": "E questa cassetta com\u2019era fatta? Cos\u00ec vediamo se \u00e8 la mia."
                         },
                         {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Com\u2019era fatta ?"
+                            "testo": "Com\u2019era fatta?"
                         },
                         {
                             "personaggi": [
@@ -3773,19 +3610,19 @@ const scriptData = {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Era fatta \u2026 a forma \u2026 di cassetta."
+                            "testo": "Era fatta\u2026 a forma\u2026 di cassetta."
                         },
                         {
                             "personaggi": [
                                 "COMMISSARIO"
                             ],
-                            "testo": "Elementare. Ma volete descriverla un po\u2019al mio assistente ?"
+                            "testo": "Elementare. Ma volete descriverla un po\u2019al mio assistente?"
                         },
                         {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "A chi ?"
+                            "testo": "A chi?"
                         },
                         {
                             "personaggi": [
@@ -3797,7 +3634,7 @@ const scriptData = {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Bene \u2026 una cassetta grande."
+                            "testo": "Bene\u2026 una cassetta grande."
                         },
                         {
                             "personaggi": [
@@ -3815,13 +3652,13 @@ const scriptData = {
                             "personaggi": [
                                 "COMMISSARIO"
                             ],
-                            "testo": "E di che colore era ?"
+                            "testo": "E di che colore era?"
                         },
                         {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Di che colore ?"
+                            "testo": "Di che colore?"
                         },
                         {
                             "personaggi": [
@@ -3833,19 +3670,19 @@ const scriptData = {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Era di un colore \u2026 un certo colore \u2026 aiutatemi!"
+                            "testo": "Era di un colore\u2026 un certo colore\u2026 aiutatemi!"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Eh ?"
+                            "testo": "Eh?"
                         },
                         {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Non era un po\u2019 rossa ?"
+                            "testo": "Non era un po\u2019 rossa?"
                         },
                         {
                             "personaggi": [
@@ -3873,9 +3710,9 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
+                        "MASTRO GIACOMO",
                         "ARPAGONE",
-                        "COMMISSARIO",
-                        "MASTRO GIACOMO"
+                        "COMMISSARIO"
                     ]
                 },
                 {
@@ -3891,13 +3728,13 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Quale attentato, signore ?"
+                            "testo": "Quale attentato, signore?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Quale attentato, signore? Sei stato smascherato, mi hanno detto tutto. Ma come! Abusare cos\u00ec della mia bont\u00e0, insinuarsi sotto il mio tetto per tradirmi, per ingannarmi in questo modo ?"
+                            "testo": "Quale attentato, signore? Sei stato smascherato, mi hanno detto tutto. Ma come! Abusare cos\u00ec della mia bont\u00e0, insinuarsi sotto il mio tetto per tradirmi, per ingannarmi in questo modo?"
                         },
                         {
                             "personaggi": [
@@ -3909,7 +3746,7 @@ const scriptData = {
                             "personaggi": [
                                 "MASTRO GIACOMO"
                             ],
-                            "testo": "Oh, vuoi vedere che senza sapere niente ho indovinato ?"
+                            "testo": "Oh, vuoi vedere che senza sapere niente ho indovinato?"
                         },
                         {
                             "personaggi": [
@@ -3921,7 +3758,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Come ?? Mascalzone: il mio sangue, le mie viscere!"
+                            "testo": "Come?? Mascalzone: il mio sangue, le mie viscere!"
                         },
                         {
                             "personaggi": [
@@ -3993,7 +3830,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Ma qui siamo diventati matti ?!"
+                            "testo": "Ma qui siamo diventati matti?!"
                         },
                         {
                             "personaggi": [
@@ -4029,7 +3866,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Ancora qui, in casa mia ?"
+                            "testo": "Ancora qui, in casa mia?"
                         },
                         {
                             "personaggi": [
@@ -4041,19 +3878,19 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "E \u2026 non hai toccato niente ?"
+                            "testo": "E\u2026 non hai toccato niente?"
                         },
                         {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Io, toccato ? Ah, qui fate torto anche a lei! Troppo giudiziosa e onesta per questo."
+                            "testo": "Io, toccato? Ah, qui fate torto anche a lei! Troppo giudiziosa e onesta per questo."
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Giudiziosa ?"
+                            "testo": "Giudiziosa?"
                         },
                         {
                             "personaggi": [
@@ -4071,19 +3908,19 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "& COMMISSARIO Zitto, idiota/coglione !"
+                            "testo": "& COMMISSARIO Zitto, idiota/coglione!"
                         },
                         {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "La signora Claudia, signore, sa tutta la verit\u00e0 e vi potr\u00e0 testimoniare \u2026"
+                            "testo": "La signora Claudia, signore, sa tutta la verit\u00e0 e vi potr\u00e0 testimoniare\u2026"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Come ? La mia cameriera complice di questa storia ?"
+                            "testo": "Come? La mia cameriera complice di questa storia?"
                         },
                         {
                             "personaggi": [
@@ -4101,13 +3938,13 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Sto dicendo che grande \u00e8 stata la fatica per convincere il suo pudore \u2026"
+                            "testo": "Sto dicendo che grande \u00e8 stata la fatica per convincere il suo pudore\u2026"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Il pudore di chi ?"
+                            "testo": "Il pudore di chi?"
                         },
                         {
                             "personaggi": [
@@ -4119,7 +3956,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Mia figlia ti ha firmato una promessa di nozze ?"
+                            "testo": "Mia figlia ti ha firmato una promessa di nozze?"
                         },
                         {
                             "personaggi": [
@@ -4153,10 +3990,10 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "ARPAGONE",
+                        "MASTRO GIACOMO",
                         "VALERIO",
-                        "COMMISSARIO",
-                        "MASTRO GIACOMO"
+                        "ARPAGONE",
+                        "COMMISSARIO"
                     ]
                 },
                 {
@@ -4166,7 +4003,7 @@ const scriptData = {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Cosa succede, pap\u00e0 ?"
+                            "testo": "Cosa succede, pap\u00e0?"
                         },
                         {
                             "personaggi": [
@@ -4178,7 +4015,7 @@ const scriptData = {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Padre mio, vi prego, porgete orecchio ai pi\u00f9 umani sentimenti e non lasciatevi trascinare dalla violenza della vostra collera. Credetemi, egli \u00e8 tutt\u2019altra persona da come voi lo giudicate e senza di lui mi avreste gi\u00e0 persa da tempo. S\u00ec, pap\u00e0: \u00e8 lui che mi ha salvata dal furore delle acque, \u00e8 a lui che dovete la vita di questa figlia \u2026"
+                            "testo": "Padre mio, vi prego, porgete orecchio ai pi\u00f9 umani sentimenti e non lasciatevi trascinare dalla violenza della vostra collera. Credetemi, egli \u00e8 tutt\u2019altra persona da come voi lo giudicate e senza di lui mi avreste gi\u00e0 persa da tempo. S\u00ec, pap\u00e0: \u00e8 lui che mi ha salvata dal furore delle acque, \u00e8 a lui che dovete la vita di questa figlia\u2026"
                         },
                         {
                             "personaggi": [
@@ -4190,7 +4027,7 @@ const scriptData = {
                             "personaggi": [
                                 "ELISA"
                             ],
-                            "testo": "Vi supplico, per l\u2019amore paterno \u2026"
+                            "testo": "Vi supplico, per l\u2019amore paterno\u2026"
                         },
                         {
                             "personaggi": [
@@ -4253,25 +4090,25 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "\u00c8 giunto il momento. Il momento di mettere in atto il piano \u2026"
+                            "testo": "\u00c8 giunto il momento. Il momento di mettere in atto il piano\u2026"
                         },
                         {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "Signor Valerio, non so di cosa state parlando \u2026 - "
+                            "testo": "Signor Valerio, non so di cosa state parlando\u2026 - "
                         },
                         {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Il tuo piano \u2026 il piano segreto \u2026 che tutte le serve hanno intorno al quarto o quinto atto ..."
+                            "testo": "Il tuo piano\u2026 il piano segreto\u2026 che tutte le serve hanno intorno al quarto o quinto atto..."
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "\u2026 in tutte le commedie di Moliere \u2026"
+                            "testo": "\u2026 in tutte le commedie di Moliere\u2026"
                         },
                         {
                             "personaggi": [
@@ -4289,13 +4126,13 @@ const scriptData = {
                             "personaggi": [
                                 "COMMISSARIO"
                             ],
-                            "testo": "Signor Intendente, il signor Arpagone sostiene che voi siate un impostore traditore \u2026 ma chi siete veramente ?"
+                            "testo": "Signor Intendente, il signor Arpagone sostiene che voi siate un impostore traditore\u2026 ma chi siete veramente?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Ottima domanda, Oma \u2026 ehm \u2026 commissario."
+                            "testo": "Ottima domanda, Oma\u2026 ehm\u2026 commissario."
                         },
                         {
                             "personaggi": [
@@ -4319,7 +4156,7 @@ const scriptData = {
                             "personaggi": [
                                 "ANSELMO"
                             ],
-                            "testo": "Certo che lo so. E pochi possono dire di averlo conosciuto come me. Dove volete arrivare ?"
+                            "testo": "Certo che lo so. E pochi possono dire di averlo conosciuto come me. Dove volete arrivare?"
                         },
                         {
                             "personaggi": [
@@ -4329,31 +4166,31 @@ const scriptData = {
                         },
                         {
                             "personaggi": [
-                                "ANSELMO",
-                                "VALERIO",
-                                "ELEONORA",
-                                "MARIANNA",
-                                "ELISA",
-                                "ARPAGONE",
-                                "MASTRO GIACOMO",
-                                "ALICE",
                                 "FROSINA",
+                                "VALERIO",
+                                "ELISA",
+                                "MASTRO GIACOMO",
+                                "COMMISSARIO",
+                                "ELEONORA",
+                                "ALICE",
+                                "ARPAGONE",
+                                "ANSELMO",
                                 "TUTTI DA DIETRO LE QUINTE",
-                                "COMMISSARIO"
+                                "MARIANNA"
                             ],
-                            "testo": "Cosaaa ???"
+                            "testo": "Cosaaa???"
                         },
                         {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Alla buon ora \u2026"
+                            "testo": "Alla buon ora\u2026"
                         },
                         {
                             "personaggi": [
                                 "COMMISSARIO"
                             ],
-                            "testo": "Oooooh !"
+                            "testo": "Oooooh!"
                         },
                         {
                             "personaggi": [
@@ -4365,13 +4202,13 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Meglio di no \u2026"
+                            "testo": "Meglio di no\u2026"
                         },
                         {
                             "personaggi": [
                                 "ANSELMO"
                             ],
-                            "testo": "Don Tommaso d\u2019Al \u2026 d\u2019Albert \u2026 Tommaso \u00e8 morto in mare, sedici anni or sono, mentre fuggiva da Napoli assieme a moglie e figli."
+                            "testo": "Don Tommaso d\u2019Al\u2026 d\u2019Albert\u2026 Tommaso \u00e8 morto in mare, sedici anni or sono, mentre fuggiva da Napoli assieme a moglie e figli."
                         },
                         {
                             "personaggi": [
@@ -4389,7 +4226,7 @@ const scriptData = {
                             "personaggi": [
                                 "FROSINA"
                             ],
-                            "testo": "Andiamo tutti di l\u00e0 \u2026"
+                            "testo": "Andiamo tutti di l\u00e0\u2026"
                         },
                         {
                             "personaggi": [
@@ -4399,37 +4236,37 @@ const scriptData = {
                         },
                         {
                             "personaggi": [
-                                "ANSELMO",
-                                "VALERIO",
-                                "ELEONORA",
-                                "MARIANNA",
-                                "ELISA",
-                                "ARPAGONE",
-                                "MASTRO GIACOMO",
-                                "ALICE",
                                 "FROSINA",
+                                "VALERIO",
+                                "ELISA",
+                                "MASTRO GIACOMO",
+                                "COMMISSARIO",
+                                "ELEONORA",
+                                "ALICE",
+                                "ARPAGONE",
+                                "ANSELMO",
                                 "TUTTI DA DIETRO LE QUINTE",
-                                "COMMISSARIO"
+                                "MARIANNA"
                             ],
-                            "testo": "Ooooooh !"
+                            "testo": "Ooooooh!"
                         },
                         {
                             "personaggi": [
                                 "COMMISSARIO"
                             ],
-                            "testo": "Ma, oltre alle vostre parole, quali prove avete per assicurarci che questa non sia una favola ?"
+                            "testo": "Ma, oltre alle vostre parole, quali prove avete per assicurarci che questa non sia una favola?"
                         },
                         {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Quali altre prove ?"
+                            "testo": "Quali altre prove?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Basta \u2026"
+                            "testo": "Basta\u2026"
                         },
                         {
                             "personaggi": [
@@ -4441,13 +4278,7 @@ const scriptData = {
                             "personaggi": [
                                 "VALERIO"
                             ],
-                            "testo": "Voi mia sorella ?"
-                        },
-                        {
-                            "personaggi": [
-                                "VALERIO"
-                            ],
-                            "testo": "& TUTTI Cosaaa ???"
+                            "testo": "Voi mia sorella?"
                         },
                         {
                             "personaggi": [
@@ -4465,19 +4296,19 @@ const scriptData = {
                             "personaggi": [
                                 "COMMISSARIO"
                             ],
-                            "testo": "E poi cosa accadde ?"
+                            "testo": "E poi cosa accadde?"
                         },
                         {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "\u00c8 necessario saperlo ?"
+                            "testo": "\u00c8 necessario saperlo?"
                         },
                         {
                             "personaggi": [
                                 "MARIANNA"
                             ],
-                            "testo": "A Napoli scoprimmo che tutte le nostre propriet\u00e0 erano state vendute. E \u2026 E passammo dunque a Genova dove mia madre raccolse il misero pesto di \u2026"
+                            "testo": "A Napoli scoprimmo che tutte le nostre propriet\u00e0 erano state vendute. E\u2026 E passammo dunque a Genova dove mia madre raccolse il misero pesto di\u2026"
                         },
                         {
                             "personaggi": [
@@ -4489,7 +4320,7 @@ const scriptData = {
                             "personaggi": [
                                 "MARIANNA"
                             ],
-                            "testo": "Il misero resto di un\u2019eredit\u00e0. E di l\u00e0, finalmente, giungemmo \u2026 qui."
+                            "testo": "Il misero resto di un\u2019eredit\u00e0. E di l\u00e0, finalmente, giungemmo\u2026 qui."
                         },
                         {
                             "personaggi": [
@@ -4501,27 +4332,27 @@ const scriptData = {
                             "personaggi": [
                                 "TUTTI DA DIETRO LE QUINTE"
                             ],
-                            "testo": "Cosaaa ???"
+                            "testo": "Cosaaa???"
                         },
                         {
                             "personaggi": [
                                 "ANSELMO"
                             ],
-                            "testo": "S\u00ec, io sono don Tommaso d\u2019Art \u2026 d\u2019Olb \u2026 d\u2019Aqui \u2026 che il Cielo ha salvato dalle acque assieme a tutti i soldi che aveva. E credendovi tutti morti da pi\u00f9 di sedici anni e avendo venduto tutte le mie propriet\u00e0 a Napoli ,dopo tante lunghe peregrinazioni, mi sistemai qui con il nome di Anselmo e cercai nelle nozze con una dolce fanciulla le consolazioni di una nuova famiglia."
+                            "testo": "S\u00ec, io sono don Tommaso d\u2019Art\u2026 d\u2019Olb\u2026 d\u2019Aqui\u2026 che il Cielo ha salvato dalle acque assieme a tutti i soldi che aveva. E credendovi tutti morti da pi\u00f9 di sedici anni e avendo venduto tutte le mie propriet\u00e0 a Napoli,dopo tante lunghe peregrinazioni, mi sistemai qui con il nome di Anselmo e cercai nelle nozze con una dolce fanciulla le consolazioni di una nuova famiglia."
                         },
                         {
                             "personaggi": [
-                                "ANSELMO",
-                                "VALERIO",
-                                "ELEONORA",
-                                "MARIANNA",
-                                "ELISA",
-                                "ARPAGONE",
-                                "MASTRO GIACOMO",
-                                "ALICE",
                                 "FROSINA",
+                                "VALERIO",
+                                "ELISA",
+                                "MASTRO GIACOMO",
+                                "COMMISSARIO",
+                                "ELEONORA",
+                                "ALICE",
+                                "ARPAGONE",
+                                "ANSELMO",
                                 "TUTTI DA DIETRO LE QUINTE",
-                                "COMMISSARIO"
+                                "MARIANNA"
                             ],
                             "testo": "Oooooh!"
                         },
@@ -4539,17 +4370,17 @@ const scriptData = {
                         },
                         {
                             "personaggi": [
-                                "ANSELMO",
-                                "VALERIO",
-                                "ELEONORA",
-                                "MARIANNA",
-                                "ELISA",
-                                "ARPAGONE",
-                                "MASTRO GIACOMO",
-                                "ALICE",
                                 "FROSINA",
+                                "VALERIO",
+                                "ELISA",
+                                "MASTRO GIACOMO",
+                                "COMMISSARIO",
+                                "ELEONORA",
+                                "ALICE",
+                                "ARPAGONE",
+                                "ANSELMO",
                                 "TUTTI DA DIETRO LE QUINTE",
-                                "COMMISSARIO"
+                                "MARIANNA"
                             ],
                             "testo": "Ooooh!"
                         },
@@ -4567,17 +4398,17 @@ const scriptData = {
                         },
                         {
                             "personaggi": [
-                                "ANSELMO",
-                                "VALERIO",
-                                "ELEONORA",
-                                "MARIANNA",
-                                "ELISA",
-                                "ARPAGONE",
-                                "MASTRO GIACOMO",
-                                "ALICE",
                                 "FROSINA",
+                                "VALERIO",
+                                "ELISA",
+                                "MASTRO GIACOMO",
+                                "COMMISSARIO",
+                                "ELEONORA",
+                                "ALICE",
+                                "ARPAGONE",
+                                "ANSELMO",
                                 "TUTTI DA DIETRO LE QUINTE",
-                                "COMMISSARIO"
+                                "MARIANNA"
                             ],
                             "testo": "Ooooh!"
                         },
@@ -4585,7 +4416,7 @@ const scriptData = {
                             "personaggi": [
                                 "COMMISSARIO"
                             ],
-                            "testo": "Allora la loro madre \u00e8 vostra moglie. Ex \u2026 quasi ex \u2026"
+                            "testo": "Allora la loro madre \u00e8 vostra moglie. Ex\u2026 quasi ex\u2026"
                         },
                         {
                             "personaggi": [
@@ -4595,17 +4426,17 @@ const scriptData = {
                         },
                         {
                             "personaggi": [
-                                "ANSELMO",
-                                "VALERIO",
-                                "ELEONORA",
-                                "MARIANNA",
-                                "ELISA",
-                                "ARPAGONE",
-                                "MASTRO GIACOMO",
-                                "ALICE",
                                 "FROSINA",
+                                "VALERIO",
+                                "ELISA",
+                                "MASTRO GIACOMO",
+                                "COMMISSARIO",
+                                "ELEONORA",
+                                "ALICE",
+                                "ARPAGONE",
+                                "ANSELMO",
                                 "TUTTI DA DIETRO LE QUINTE",
-                                "COMMISSARIO"
+                                "MARIANNA"
                             ],
                             "testo": "Ooooh!"
                         },
@@ -4619,21 +4450,21 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "No! Non \u00e8 niente risolto: chi ha rubato la mia cassetta ?"
+                            "testo": "No! Non \u00e8 niente risolto: chi ha rubato la mia cassetta?"
                         }
                     ],
                     "personaggi": [
-                        "ANSELMO",
-                        "VALERIO",
-                        "ELEONORA",
-                        "MARIANNA",
-                        "ELISA",
-                        "ARPAGONE",
-                        "MASTRO GIACOMO",
-                        "ALICE",
                         "FROSINA",
+                        "VALERIO",
+                        "ELISA",
+                        "MASTRO GIACOMO",
+                        "COMMISSARIO",
+                        "ELEONORA",
+                        "ALICE",
+                        "ARPAGONE",
+                        "ANSELMO",
                         "TUTTI DA DIETRO LE QUINTE",
-                        "COMMISSARIO"
+                        "MARIANNA"
                     ]
                 },
                 {
@@ -4649,7 +4480,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Dove sono ?"
+                            "testo": "Dove sono?"
                         },
                         {
                             "personaggi": [
@@ -4661,7 +4492,7 @@ const scriptData = {
                             "personaggi": [
                                 "MARIANNA"
                             ],
-                            "testo": "Questo non \u00e8 sufficiente, Cleante, perch\u00e9 il Cielo assieme a questo che \u00e8 mio fratello, mi ha appena restituito un padre \u2026"
+                            "testo": "Questo non \u00e8 sufficiente, Cleante, perch\u00e9 il Cielo assieme a questo che \u00e8 mio fratello, mi ha appena restituito un padre\u2026"
                         },
                         {
                             "personaggi": [
@@ -4697,7 +4528,7 @@ const scriptData = {
                             "personaggi": [
                                 "ARPAGONE"
                             ],
-                            "testo": "Io soldi da dare ai miei figli \u2026 non ne ho."
+                            "testo": "Io soldi da dare ai miei figli\u2026 non ne ho."
                         },
                         {
                             "personaggi": [
@@ -4715,7 +4546,7 @@ const scriptData = {
                             "personaggi": [
                                 "ANSELMO"
                             ],
-                            "testo": "Mi assumo l\u2019impegno. Siete soddisfatto ?"
+                            "testo": "Mi assumo l\u2019impegno. Siete soddisfatto?"
                         },
                         {
                             "personaggi": [
@@ -4737,10 +4568,10 @@ const scriptData = {
                         }
                     ],
                     "personaggi": [
-                        "ARPAGONE",
-                        "ANSELMO",
+                        "MARIANNA",
                         "CLEANTE",
-                        "MARIANNA"
+                        "ARPAGONE",
+                        "ANSELMO"
                     ]
                 }
             ],
