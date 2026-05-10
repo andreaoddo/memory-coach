@@ -214,16 +214,27 @@
     });
     
     function speak(text) {
-    // Interrompe eventuali letture in corso (evita sovrapposizioni)
-    window.speechSynthesis.cancel();
+		  window.speechSynthesis.cancel();
+		  const utterance = new SpeechSynthesisUtterance(text);
+    
+			// Recupera tutte le voci disponibili
+			const voices = window.speechSynthesis.getVoices();
+			
+			// Cerca una voce italiana di alta qualità (spesso marcata come 'Google' o 'Natural')
+			const premiumVoice = voices.find(v => v.lang === 'it-IT' && v.name.includes('Google')) 
+			                  || voices.find(v => v.lang === 'it-IT' && v.name.includes('Natural'))
+			                  || voices.find(v => v.lang === 'it-IT');
 
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'it-IT'; // Imposta la lingua in italiano
-    utterance.rate = 1.25;     // Velocità (0.1 a 10)
-    utterance.pitch = 0.5;    // Tonalità (0 a 2)
+			if (premiumVoice) utterance.voice = premiumVoice;
+			
+			utterance.lang = 'it-IT';
+			utterance.rate = 1.25;
+			window.speechSynthesis.speak(utterance);
+		}
 
-    window.speechSynthesis.speak(utterance);
-}
+	// Nota: le voci vengono caricate asincronamente, quindi forziamo il caricamento
+	window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+    
 </script>
 
 </body>
