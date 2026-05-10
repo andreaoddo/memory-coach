@@ -57,7 +57,7 @@
             <button onclick="prevLine()">⬅ Indietro</button>
             <button onclick="nextLine()">Avanti ➡</button>
         </div>
-        <div class="btn-group" style="margin-top:10px;">
+        <div id="hints" class="btn-group" style="margin-top:10px;">
             <button id="suggestBtn" onclick="suggestWord()" style="background:var(--accent);">Suggerisci (S)</button>
             <button id="toggleBtn" onclick="toggleFullLine()" style="background:#3498db;">Mostra/Nascondi (H)</button>
         </div>
@@ -131,39 +131,54 @@
 				document.getElementById('setup-controls').style.display = 'none';
 				document.getElementById('player').style.display = 'block';
 				document.getElementById('scene-title').style.display = 'block';
+				if(myChar == "LETTURA_LIBERA") {
+					document.getElementById('hints').style.display = 'none';
+				}
+				
 				renderLine();
+		}
+		
+		let currentAudio = null; // Variabile globale per gestire l'audio
+
+		function playLocalAudio() {
+				const line = currentLines[currentIndex];
+				
+				// 1. Fermiamo l'audio precedente se sta ancora suonando
+				if (currentAudio) {
+				    currentAudio.pause();
+				    currentAudio.currentTime = 0;
+				}
+
+				// 2. Se non è il mio turno (o sono in lettura libera), riproduco l'audio
+				// line.hash è il valore che Python ha scritto per noi
+				console.log(line.hash);
+				if (line.hash) {
+				    const audioPath = `audio/${line.hash}.mp3`;
+				    console.log("audioPath =", audioPath);
+				    currentAudio = new Audio(audioPath);
+
+				    currentAudio.play().catch(error => {
+				        console.error("Errore nella riproduzione dell'audio:", error);
+				        // Opzionale: qui potresti mettere un fallback al TTS di sistema
+				    });
+				}
 		}
 
     function renderLine() {
 				const line = currentLines[currentIndex];
-				const speakerEl = document.getElementById('speaker');
-				const contentEl = document.getElementById('content');
-				const suggestBtn = document.getElementById('suggestBtn');
-				const toggleBtn = document.getElementById('toggleBtn');
-				// Aggiungi questo dentro renderLine
-				const scenaTitolo = `${scriptData.atti[currentAttoIdx].titolo} - ${scriptData.atti[currentAttoIdx].scene[currentScenaIdx].titolo}` || `Atto ${currentAttoIdx} - Scena ${currentScenaIdx + 1}`;
-				document.getElementById('scene-title').textContent = scenaTitolo;
-				
-				speakerEl.textContent = line.personaggi.join(", ");
-				revealedWords = 0; 
-				isLineVisible = false;
-				toggleBtn.textContent = "Mostra Battuta (H)";
+				const iAmSpeaking = line.personaggi.includes(myChar);
 
-				// Se NON è il tuo turno (o è lettura libera), l'app parla
-				if (myChar === "LETTURA_LIBERA" || !line.personaggi.includes(myChar)) {
-				    contentEl.textContent = `"${line.testo}"`;
-				    suggestBtn.style.display = 'none';
-				    toggleBtn.style.display = 'none';
-				    
-				    // --- AGGIUNTA: L'app legge la battuta ---
-				    if (ttsEnabled) speak(line.testo);
-				} 
-				else {
-				    // Se è il tuo turno, l'app sta zitta e aspetta te
-				    window.speechSynthesis.cancel(); // Silenzio per sicurezza
-				    contentEl.innerHTML = `<span class="cue">TOCCA A TE!</span>`;
-				    suggestBtn.style.display = 'block';
-				    toggleBtn.style.display = 'block';
+				// Aggiornamento interfaccia...
+				document.getElementById('speaker').textContent = line.personaggi.join(" & ");
+
+				if (myChar !== "LETTURA_LIBERA" && iAmSpeaking) {
+				    // TOCCA A TE: Silenzio
+				    if (currentAudio) currentAudio.pause();
+				    document.getElementById('content').innerHTML = `<span class="cue">TOCCA A TE!</span>`;
+				} else {
+				    // ASCOLTO: Mostra testo e riproduci file MP3 tramite hash
+				    document.getElementById('content').textContent = `"${line.testo}"`;
+				    playLocalAudio();
 				}
 		}
 
