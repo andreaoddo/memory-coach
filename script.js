@@ -8,6 +8,13 @@ const scriptData = {
           "battute": [
             {
               "personaggi": [
+                "CLAUDIA"
+              ],
+              "testo": "L’amore inizia così. È un colpo di fulmine, una tempesta, un naufragio, una morte e una rinascita. Elisa voleva essere salvata ed è arrivato Valerio; tutto è iniziato così. Io l’ho visto, e continuo a vedere molte cose … e non può esserci niente di buono quando motore, ragione e perfino origine della nostra vita è il denaro.",
+              "hash": "1877a27bacd8"
+            },
+            {
+              "personaggi": [
                 "VALERIO"
               ],
               "testo": "Cosa c’è, Elisa? Io al colmo della felicità e voi vi fate malinconica? Forse vi siete pentita della bontà di giurarmi la vostra fede? Forse vi ha costretta il mio ardore?",
@@ -1591,6 +1598,13 @@ const scriptData = {
               ],
               "testo": "Che bravo ragazzo! Sembra di sentire un oracolo. Felice colui che può avere al suo servizio un uomo come questo!",
               "hash": "532ea00af195"
+            },
+            {
+              "personaggi": [
+                "CLAUDIA"
+              ],
+              "testo": "Anime svuotate e colme di paura: Arpagone appartiene a queste. Bel problema per anime giovani e piene di vita. Ma la nostra Commedia accade ora, qui, con voi, e dunque giochiamo un po’e cambiamo le carte in tavola: e se il nostro avaro fosse un giovane come i nostri innamorati ? Nuova generazione, nuove idee, nuovi sogni. Giochiamoci insieme e chissà che la storia non prenda una piega inaspettata.",
+              "hash": "44eff793138a"
             }
           ],
           "personaggi": [
@@ -2399,6 +2413,13 @@ const scriptData = {
               ],
               "testo": "Che la febbre ti soffochi, cane d’un farabutto dell’inferno! Non mollare, Frosina: c’è sempre la controparte e lì sono sicura che ne caverò fuori un bel compenso.",
               "hash": "1c93de1c8c78"
+            },
+            {
+              "personaggi": [
+                "CLAUDIA"
+              ],
+              "testo": "Vabbè, come non detto … Elisa e Valerio hanno un piano, Cleante ha un piano, Frosina ha un piano, Arpagone, ovviamente, ha un piano. Cos’hanno in comune tutti questi piani? I soldi. E il tempo: il tempo rimasto è poco, è quasi ora di cena e tutti hanno una gran fame. Meglio fare un passo indietro, ridiamo fiducia alle donne e cambiamo gli uomini. Cleante: più ponderato e risoluto. Valerio: più cinico e calcolatore.",
+              "hash": "98f324e41ab5"
             }
           ],
           "personaggi": [
@@ -5289,6 +5310,13 @@ const scriptData = {
               ],
               "testo": "E io a rivedere la mia adorata cassetta.",
               "hash": "17548577c8b4"
+            },
+            {
+              "personaggi": [
+                "CLAUDIA"
+              ],
+              "testo": "Dai, vieni. Cosa credevi? Noi dobbiamo stare buone e accettare, moriremo sole. E viviamo sole. La domanda è : che valore diamo al nostro tempo con gli altri? Già, il tempo e gli altri.",
+              "hash": "f1d17bce4280"
             }
           ],
           "personaggi": [
